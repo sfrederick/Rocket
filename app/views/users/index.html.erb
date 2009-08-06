@@ -5,6 +5,8 @@
     <th>Username</th>
     <th>Password</th>
     <th>Email</th>
+    <th>Facebook User Id</th>
+    <th>Twitter User Id</th>
   </tr>
 
 <% @users.each do |user| %>
@@ -12,6 +14,8 @@
     <td><%=h user.username %></td>
     <td><%=h user.password %></td>
     <td><%=h user.email %></td>
+    <td><%=h user.fb_userid %></td>
+    <td><%=h user.tw_userid %></td>
     <td><%= link_to 'Show', user %></td>
     <td><%= link_to 'Edit', edit_user_path(user) %></td>
     <td><%= link_to 'Destroy', user, :confirm => 'Are you sure?', :method => :delete %></td>

@@ -16,6 +16,15 @@
     <%= f.text_field :email %>
   </p>
   <p>
+    <%= f.label "Facebook User Id" %><br />
+    <%= f.text_field :fb_userid %>
+  </p>
+
+  <p>
+    <%= f.label "Twitter User Id" %><br />
+    <%= f.text_field :tw_userid %>
+  </p>
+  <p>
     <%= f.submit 'Update' %>
   </p>
 <% end %>

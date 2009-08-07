@@ -9,7 +9,17 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20090805021727) do
+ActiveRecord::Schema.define(:version => 20090806062746) do
+
+  create_table "statuses", :force => true do |t|
+    t.string   "source"
+    t.integer  "user_id"
+    t.text     "status"
+    t.date     "update"
+    t.string   "means"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "users", :force => true do |t|
     t.string   "username"

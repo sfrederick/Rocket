@@ -1,0 +1,15 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  source: MyString
+  user_id: 1
+  status: MyText
+  update: 2009-08-05
+  means: MyString
+
+two:
+  source: MyString
+  user_id: 1
+  status: MyText
+  update: 2009-08-05
+  means: MyString

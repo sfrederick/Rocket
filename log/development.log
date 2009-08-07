@@ -2160,3 +2160,73 @@ Processing UsersController#index (for 127.0.0.1 at 2009-08-05 18:43:28) [GET]
 Rendering template within layouts/users
 Rendering users/index
 Completed in 9ms (View: 4, DB: 1) | 200 OK [http://0.0.0.0/users]
+
+
+Processing RocketController#index (for 127.0.0.1 at 2009-08-05 23:13:12) [GET]
+Rendering template within layouts/rocket
+Rendering rocket/index
+Completed in 45ms (View: 42, DB: 0) | 200 OK [http://0.0.0.0/rocket]
+
+
+Processing RocketController#index (for 127.0.0.1 at 2009-08-05 23:13:16) [POST]
+  Parameters: {"name"=>"admin", "commit"=>"Login", "authenticity_token"=>"pgg3J4ZKJz7xN0IMBeLKzCmEjLUx3BOFbfd5v/kV0Co=", "password"=>"pwd"}
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."username" = 'admin') LIMIT 1[0m
+Redirected to http://0.0.0.0:3000/rocket
+Completed in 12ms (DB: 0) | 302 Found [http://0.0.0.0/rocket]
+
+
+Processing RocketController#index (for 127.0.0.1 at 2009-08-05 23:13:16) [GET]
+Rendering template within layouts/rocket
+Rendering rocket/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/rocket]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2009-08-05 23:13:21) [GET]
+  [4;35;1mUser Load (0.6ms)[0m   [0mSELECT * FROM "users" [0m
+Rendering template within layouts/users
+Rendering users/index
+Completed in 52ms (View: 13, DB: 1) | 200 OK [http://0.0.0.0/users]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2009-08-05 23:14:46) [GET]
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM "users" [0m
+Rendering template within layouts/users
+Rendering users/index
+Completed in 9ms (View: 5, DB: 1) | 200 OK [http://0.0.0.0/users]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2009-08-05 23:17:08) [GET]
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM "users" [0m
+Rendering template within layouts/users
+Rendering users/index
+Completed in 9ms (View: 4, DB: 1) | 200 OK [http://0.0.0.0/users]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2009-08-05 23:22:55) [GET]
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM "users" [0m
+Rendering template within layouts/rocket
+Rendering users/index
+Completed in 13ms (View: 9, DB: 1) | 200 OK [http://0.0.0.0/users]
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20090730011853)
+Migrating to AddFbUseridToUsers (20090805021706)
+Migrating to AddTwUseridToUsers (20090805021727)
+Migrating to CreateStatuses (20090806062746)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCREATE TABLE "statuses" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "source" varchar(255), "user_id" integer, "status" text, "update" date, "means" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20090806062746')[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("statuses")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("users")[0m

@@ -1,11 +1,22 @@
 # Filters added to this controller apply to all controllers in the application.
 # Likewise, all the methods added will be available for all controllers.
+  class ApplicationController < ActionController::Base
+  layout :determine_layout
 
-class ApplicationController < ActionController::Base
-  layout "rocket"
-  helper :all # include all helpers, all the time
-  protect_from_forgery # See ActionController::RequestForgeryProtection for details
+  include Clearance::App::Controllers::ApplicationController
+  helper :all
+  protect_from_forgery
 
-  # Scrub sensitive parameters from your log
-  # filter_parameter_logging :password
+  #filter_parameter_logging :password, :password_confirmation
+
+  rescue_from Twitter::Unauthorized, :with => :twitter_unauthorized
+
+  private
+    def twitter_unauthorized(exception)
+      redirect_to new_authorization_url
+    end
+
+    def determine_layout
+      signed_in? ? 'application' : 'login'
+    end
 end

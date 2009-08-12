@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20090806062746) do
+ActiveRecord::Schema.define(:version => 20090812080253) do
 
   create_table "statuses", :force => true do |t|
     t.string   "source"
@@ -27,8 +27,17 @@ ActiveRecord::Schema.define(:version => 20090806062746) do
     t.string   "email"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.string   "fb_userid"
-    t.string   "tw_userid"
+    t.string   "encrypted_password", :limit => 128
+    t.string   "salt",               :limit => 128
+    t.string   "token",              :limit => 128
+    t.datetime "token_expires_at"
+    t.boolean  "email_confirmed",                   :default => false, :null => false
+    t.boolean  "tw_auth"
+    t.boolean  "fb_auth"
   end
+
+  add_index "users", ["email"], :name => "index_users_on_email"
+  add_index "users", ["id", "token"], :name => "index_users_on_id_and_token"
+  add_index "users", ["token"], :name => "index_users_on_token"
 
 end

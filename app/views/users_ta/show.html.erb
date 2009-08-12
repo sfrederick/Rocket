@@ -1,0 +1,27 @@
+<p>
+  <b>Username:</b>
+  <%=h @user.username %>
+</p>
+
+<p>
+  <b>Password:</b>
+  <%=h @user.password %>
+</p>
+
+<p>
+  <b>Email:</b>
+  <%=h @user.email %>
+</p>
+
+<p>
+  <b>Facebook User Id:</b>
+  <%=h @user.fb_userid %>
+</p>
+
+<p>
+  <b>Twitter User Id:</b>
+  <%=h @user.tw_userid %>
+</p>
+
+<%= link_to 'Edit', edit_user_path(@user) %> |
+<%= link_to 'Back', users_path %>

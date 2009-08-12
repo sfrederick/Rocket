@@ -1,7 +1,20 @@
 ActionController::Routing::Routes.draw do |map|
-  map.resources :statuses
-
+  
+  map.root :controller => 'rocket'
+  
   map.resources :users
+  map.resources :statuses
+  
+  #map.resources :statuses, :collection => {:mentions => :get, :favorites => :get},
+  #                          :member => {:fav => :post, :unfav => :post}
+  # map.resources :direct_messages
+  #map.resources :users, :has_one => [:password, :confirmation]
+  #map.resources :passwords
+  #map.resources :friendships
+  
+  #map.resource :session
+  map.resource :authorization
+
 
   # The priority is based upon order of creation: first created -> highest priority.
 

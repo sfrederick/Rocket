@@ -27,7 +27,7 @@
         <%= link_to 'Status', :controller => 'status' %><br />
         <%= link_to 'Friends', :controller => 'friends' %><br />
         <%= link_to 'Admin', :controller => 'users' %><br />
-        <%= link_to 'My Info', :controller => 'users', :action => 'edit' %><br />
+        <%= link_to 'My Info', :controller => 'users', :id => session[:user_id], :action => 'edit' %><br />
         <br />
         <%= link_to 'Logout', :action => 'logout'  %>
       <% end %>

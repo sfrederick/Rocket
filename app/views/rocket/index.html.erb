@@ -2,11 +2,11 @@
   <% if session[:user_id] == nil %>
   <% form_tag do %>
     <fieldset>
-      <legend>Please Log In</legend>
+      <legend>Sign In</legend>
 
       <div>
-        <label for="name">Name:</label>
-        <%= text_field_tag :name, params[:name] %>
+        <label for="email">Email:</label>
+        <%= text_field_tag :email, params[:email] %>
       </div>
 
       <div>
@@ -15,7 +15,7 @@
       </div>
 
       <div>
-        <%= submit_tag "Login" %>
+        <%= submit_tag "Sign in" %>
       </div>
 
     </fieldset>

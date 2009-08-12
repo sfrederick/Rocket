@@ -1,15 +1,12 @@
-require 'grackle'
-
 module StatusesHelper
-  def tw_connect
-
-    client = Grackle::Client.new(:auth=>{
-        :type=>:oauth,
-        :consumer_key=>'IWAbps0aSQY9zu7QrZaOg',
-        :consumer_secret=>'soXYdGJ8tn37XLkDHHwCCCJVNx5XjY4eNhEYHzlH9MU',
-        :token=>'ACCESSTOKENACQUIREDONUSERSBEHALF',
-        :token_secret=>'SUPERSECRETACCESSTOKENSECRET'
-      })
+  def linkup_mentions(text)
+    text.gsub!(/@([\w]+)(\W)?/, '@<a href="/users/\1">\1</a>\2')
+    text
   end
 
+  def pretty_datetime(datetime)
+    date = datetime.strftime('%b %e, %Y').downcase
+    time = datetime.strftime('%l:%M%p').downcase
+    content_tag(:span, date, :class => 'date') + " " + content_tag(:span, time, :class => 'time')
+  end
 end

@@ -14,13 +14,13 @@
 </p>
 
 <p>
-  <b>Facebook User Id:</b>
-  <%=h @user.fb_userid %>
+  <b>Facebook?</b>
+  <%=h @user.fb_auth ? "On" : "Off" %>
 </p>
 
 <p>
-  <b>Twitter User Id:</b>
-  <%=h @user.tw_userid %>
+  <b>Twitter?</b>
+  <%=h @user.tw_auth ? "On": "Off" %>
 </p>
 
 <%= link_to 'Edit', edit_user_path(@user) %> |

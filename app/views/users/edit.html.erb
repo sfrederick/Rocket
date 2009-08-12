@@ -16,13 +16,13 @@
     <%= f.text_field :email %>
   </p>
   <p>
-    <%= f.label "Facebook User Id" %><br />
-    <%= f.text_field :fb_userid %>
+    <%= f.label 'Add Facebook' %>
+    <%= f.check_box :fb_auth %>
   </p>
 
   <p>
-    <%= f.label "Twitter User Id" %><br />
-    <%= f.text_field :tw_userid %>
+    <%= f.label 'Add Twitter' %>
+    <%= f.check_box :tw_auth %>
   </p>
   <p>
     <%= f.submit 'Update' %>

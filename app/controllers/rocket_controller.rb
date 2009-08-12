@@ -2,7 +2,7 @@ class RocketController < ApplicationController
 
   def index
     if request.post? && session[:user_id] == nil
-      user = User.authenticate(params[:name], params[:password])
+      user = User.authenticate(params[:email], params[:password])
       if user
         session[:user_id] = user.id
         # redirect_to :controller => "status", :action => "list"

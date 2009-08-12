@@ -7,6 +7,21 @@ RAILS_GEM_VERSION = '2.3.2' unless defined? RAILS_GEM_VERSION
 require File.join(File.dirname(__FILE__), 'boot')
 
 Rails::Initializer.run do |config|
+
+  config.gem "thoughtbot-clearance",
+    :lib     => 'clearance',
+    :source  => 'http://gems.github.com',
+    :version => '0.5.3'
+
+  config.gem 'mislav-will_paginate',
+    :lib => 'will_paginate',
+    :source => 'http://gems.github.com',
+    :version => '2.3.8'
+
+  config.gem 'twitter',
+    :lib => 'twitter',
+    :version => '0.6.6'
+
   # Settings in config/environments/* take precedence over those specified here.
   # Application configuration should go into files in config/initializers
   # -- all .rb files in that directory are automatically loaded.
@@ -38,4 +53,9 @@ Rails::Initializer.run do |config|
   # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
   # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}')]
   # config.i18n.default_locale = :de
+
 end
+
+DO_NOT_REPLY = "donotreply@example.com"
+
+ConsumerConfig = YAML.load(File.read(Rails.root + 'config' + 'consumer.yml'))

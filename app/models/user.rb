@@ -11,12 +11,11 @@ class User < ActiveRecord::Base
 
   def self.authenticate(email, password)
     user = self.find_by_email(email)
-    if user
-      if user.password != password
-        user = nil
-      end
+    if user && user.password=(password)
+      user
+    else
+      user = nil
     end
-    user
   end
 
   def after_destroy

@@ -8,7 +8,7 @@ class RocketController < ApplicationController
         # redirect_to :controller => "status", :action => "list"
         redirect_to :action => "index"
       else
-        flash.now[:notice] = "Invalid user/password combination"
+        flash.now[:notice] = "Invalid email/password combination"
       end
     end
   end

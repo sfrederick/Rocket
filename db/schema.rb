@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20090812080253) do
+ActiveRecord::Schema.define(:version => 20090904204248) do
 
   create_table "statuses", :force => true do |t|
     t.string   "source"
@@ -34,6 +34,8 @@ ActiveRecord::Schema.define(:version => 20090812080253) do
     t.boolean  "email_confirmed",                   :default => false, :null => false
     t.boolean  "tw_auth"
     t.boolean  "fb_auth"
+    t.string   "atoken"
+    t.string   "asecret"
   end
 
   add_index "users", ["email"], :name => "index_users_on_email"

@@ -5,8 +5,8 @@ class RocketController < ApplicationController
       user = User.authenticate(params[:email], params[:password])
       if user
         session[:user_id] = user.id
-        # redirect_to :controller => "status", :action => "list"
-        redirect_to :action => "index"
+        redirect_to :controller => "statuses", :action => "index"
+        # redirect_to :action => "index"
       else
         flash.now[:notice] = "Invalid email/password combination"
       end

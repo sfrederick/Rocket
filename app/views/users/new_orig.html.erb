@@ -1,4 +1,4 @@
-<h1>Edit user</h1>
+<h1>New user</h1>
 
 <% form_for(@user) do |f| %>
   <%= f.error_messages %>
@@ -9,25 +9,30 @@
   </p>
   <p>
     <%= f.label :password %><br />
-    <%= f.text_field :password %>
+    <%= f.password_field :password %>
+    <%= f.label :password_confirmation, "Confirm" %>:
+    <%= f.password_field :password_confirmation, :size=>40 %>
   </p>
+ 
   <p>
     <%= f.label :email %><br />
     <%= f.text_field :email %>
   </p>
-  <p>
-    <%= f.label 'Add Facebook' %>
-    <%= f.check_box :fb_auth %>
-  </p>
 
   <p>
-    <%= f.label 'Add Twitter' %>
+    <%= f.label "Facebook Authorization" %><br />
+    <%= f.check_box :fb_auth %>
+  </p>
+  
+  <p>
+    <%= f.label 'Twitter Authorization' %><br />
     <%= f.check_box :tw_auth %>
   </p>
+
+
   <p>
-    <%= f.submit 'Update' %>
+    <%= f.submit 'Create' %>
   </p>
 <% end %>
 
-<%= link_to 'Show', @user %> |
 <%= link_to 'Back', users_path %>

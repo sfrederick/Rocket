@@ -3630,3 +3630,2596 @@ Processing RocketController#index (for 127.0.0.1 at 2009-08-20 18:41:37) [GET]
 Rendering template within layouts/rocket
 Rendering rocket/index
 Completed in 3ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing RocketController#index (for 127.0.0.1 at 2009-09-04 12:22:01) [GET]
+Rendering template within layouts/rocket
+Rendering rocket/index
+Completed in 42ms (View: 40, DB: 0) | 200 OK [http://0.0.0.0/rocket]
+
+
+Processing RocketController#index (for 127.0.0.1 at 2009-09-04 12:22:07) [POST]
+  Parameters: {"commit"=>"Sign in", "authenticity_token"=>"l5SBi7UmsesH+ZWF8kuX/jbyhtTDGcZosv/Z7bDweCs=", "password"=>"pwd", "email"=>"stacie.frederick@gmail.com"}
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."email" = 'stacie.frederick@gmail.com') LIMIT 1[0m
+Redirected to http://0.0.0.0:3000/
+Completed in 9ms (DB: 0) | 302 Found [http://0.0.0.0/]
+
+
+Processing RocketController#index (for 127.0.0.1 at 2009-09-04 12:22:07) [GET]
+Rendering template within layouts/rocket
+Rendering rocket/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing RocketController#index (for 127.0.0.1 at 2009-09-04 12:26:08) [GET]
+Rendering template within layouts/rocket
+Rendering rocket/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing RocketController#index (for 127.0.0.1 at 2009-09-04 12:26:25) [GET]
+Rendering template within layouts/rocket
+Rendering rocket/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing RocketController#index (for 127.0.0.1 at 2009-09-04 12:36:47) [GET]
+Rendering template within layouts/rocket
+Rendering rocket/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing RocketController#index (for 127.0.0.1 at 2009-09-04 12:36:49) [GET]
+Rendering template within layouts/rocket
+Rendering rocket/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing RocketController#index (for 127.0.0.1 at 2009-09-04 12:42:04) [GET]
+Rendering template within layouts/rocket
+Rendering rocket/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing RocketController#index (for 127.0.0.1 at 2009-09-04 12:42:08) [GET]
+Rendering template within layouts/rocket
+Rendering rocket/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing RocketController#index (for 127.0.0.1 at 2009-09-04 12:42:12) [GET]
+Rendering template within layouts/rocket
+Rendering rocket/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-09-04 12:42:17) [GET]
+
+ActionController::RoutingError (No route matches "/status" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing RocketController#index (for 127.0.0.1 at 2009-09-04 12:44:24) [GET]
+Rendering template within layouts/rocket
+Rendering rocket/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing RocketController#logout (for 127.0.0.1 at 2009-09-04 12:44:28) [GET]
+Redirected to http://0.0.0.0:3000/
+Completed in 2ms (DB: 0) | 302 Found [http://0.0.0.0/rocket/logout]
+
+
+Processing RocketController#index (for 127.0.0.1 at 2009-09-04 12:44:28) [GET]
+Rendering template within layouts/rocket
+Rendering rocket/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing RocketController#index (for 127.0.0.1 at 2009-09-04 12:44:35) [POST]
+  Parameters: {"commit"=>"Sign in", "authenticity_token"=>"l5SBi7UmsesH+ZWF8kuX/jbyhtTDGcZosv/Z7bDweCs=", "password"=>"pwd", "email"=>"stacie.frederick@gmail.com"}
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."email" = 'stacie.frederick@gmail.com') LIMIT 1[0m
+Redirected to http://0.0.0.0:3000/status/list
+Completed in 7ms (DB: 0) | 302 Found [http://0.0.0.0/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-09-04 12:44:35) [GET]
+
+ActionController::RoutingError (No route matches "/status/list" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-09-04 12:44:51) [GET]
+
+ActionController::RoutingError (No route matches "/status/list" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing RocketController#index (for 127.0.0.1 at 2009-09-04 12:45:01) [GET]
+Rendering template within layouts/rocket
+Rendering rocket/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-09-04 12:45:03) [GET]
+
+ActionController::RoutingError (No route matches "/status" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-09-04 12:49:01) [GET]
+
+ActionController::RoutingError (No route matches "/status" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing StatusesController#index (for 127.0.0.1 at 2009-09-04 12:49:05) [GET]
+Rendering template within layouts/statuses
+Rendering statuses/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #2 of app/views/statuses/index.html.erb:
+1: <div id="statuses">
+2:   <%- for tweet in @tweets -%>
+3:     <%= render :partial => 'statuses/status', :object => tweet %>
+4:   <%- end -%>
+5: </div>
+
+    app/views/statuses/index.html.erb:2
+
+Rendered rescues/_trace (31.5ms)
+Rendered rescues/_request_and_response (1.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RocketController#index (for 127.0.0.1 at 2009-09-04 12:59:06) [GET]
+Rendering template within layouts/rocket
+Rendering rocket/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing RocketController#logout (for 127.0.0.1 at 2009-09-04 12:59:08) [GET]
+Redirected to http://0.0.0.0:3000/
+Completed in 2ms (DB: 0) | 302 Found [http://0.0.0.0/rocket/logout]
+
+
+Processing RocketController#index (for 127.0.0.1 at 2009-09-04 12:59:08) [GET]
+Rendering template within layouts/rocket
+Rendering rocket/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing RocketController#index (for 127.0.0.1 at 2009-09-04 12:59:17) [POST]
+  Parameters: {"commit"=>"Sign in", "authenticity_token"=>"l5SBi7UmsesH+ZWF8kuX/jbyhtTDGcZosv/Z7bDweCs=", "password"=>"pwd", "email"=>"stacie.frederick@gmail.com"}
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."email" = 'stacie.frederick@gmail.com') LIMIT 1[0m
+Redirected to http://0.0.0.0:3000/statuses
+Completed in 7ms (DB: 0) | 302 Found [http://0.0.0.0/]
+
+
+Processing StatusesController#index (for 127.0.0.1 at 2009-09-04 12:59:17) [GET]
+Rendering template within layouts/statuses
+Rendering statuses/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #2 of app/views/statuses/index.html.erb:
+1: <div id="statuses">
+2:   <%- for tweet in @tweets -%>
+3:     <%= render :partial => 'statuses/status', :object => tweet %>
+4:   <%- end -%>
+5: </div>
+
+    app/views/statuses/index.html.erb:2
+
+Rendered rescues/_trace (29.8ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StatusesController#index (for 127.0.0.1 at 2009-09-04 13:01:52) [GET]
+Rendering template within layouts/statuses
+Rendering statuses/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #2 of app/views/statuses/index.html.erb:
+1: <div id="statuses">
+2:   <%- for tweet in @tweets -%>
+3:     <%= render :partial => 'statuses/status', :object => tweet %>
+4:   <%- end -%>
+5: </div>
+
+    app/views/statuses/index.html.erb:2
+
+Rendered rescues/_trace (29.9ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StatusesController#index (for 127.0.0.1 at 2009-09-04 13:01:55) [GET]
+Rendering template within layouts/statuses
+Rendering statuses/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #2 of app/views/statuses/index.html.erb:
+1: <div id="statuses">
+2:   <%- for tweet in @tweets -%>
+3:     <%= render :partial => 'statuses/status', :object => tweet %>
+4:   <%- end -%>
+5: </div>
+
+    app/views/statuses/index.html.erb:2
+
+Rendered rescues/_trace (78.5ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-09-04 13:02:31) [GET]
+
+SyntaxError (/Users/sfrederick/ruby_on_rails/rocket/app/controllers/statuses_controller.rb:131: syntax error, unexpected kEND, expecting $end):
+  
+
+Rendered rescues/_trace (22.6ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StatusesController#index (for 127.0.0.1 at 2009-09-04 13:02:59) [GET]
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Rendering template within layouts/statuses
+Rendering /sessions/new (unauthorized)
+
+ActionView::TemplateError (undefined local variable or method `session_path' for #<ActionView::Base:0x23b0dd8>) on line #3 of app/views/sessions/new.html.erb:
+1: <h2>Sign in</h2>
+2: 
+3: <% form_for :session, :url => session_path do |form| %>
+4:   <div class="text_field">
+5:     <%= form.label :email %>
+6:     <%= form.text_field :email %>  
+
+    app/views/sessions/new.html.erb:3
+    vendor/gems/thoughtbot-clearance-0.5.3/lib/clearance/app/controllers/application_controller.rb:77:in `deny_access'
+    vendor/gems/thoughtbot-clearance-0.5.3/lib/clearance/app/controllers/application_controller.rb:29:in `authenticate'
+
+Rendered rescues/_trace (32.6ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StatusesController#index (for 127.0.0.1 at 2009-09-04 13:08:54) [GET]
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Rendering template within layouts/statuses
+Rendering /sessions/new (unauthorized)
+Filter chain halted as [:authenticate] rendered_or_redirected.
+Completed in 10ms (View: 2, DB: 0) | 401 Unauthorized [http://0.0.0.0/]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2009-09-04 13:09:07) [POST]
+  Parameters: {"commit"=>"Sign in", "action"=>"create", "authenticity_token"=>"l5SBi7UmsesH+ZWF8kuX/jbyhtTDGcZosv/Z7bDweCs=", "session"=>{"password"=>"[FILTERED]", "remember_me"=>"0", "email"=>"stacie.frederick@gmail.com"}, "controller"=>"sessions"}
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."email" = 'stacie.frederick@gmail.com') LIMIT 1[0m
+Sent mail to stacie.frederick@gmail.com
+
+From: donotreply@example.com
+To: stacie.frederick@gmail.com
+Subject: Account confirmation
+Mime-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+
+http://twitterapp.local/users/1/confirmation/new
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+
+ActionView::MissingTemplate (Missing layout layouts/login.erb in view path app/views):
+  vendor/gems/thoughtbot-clearance-0.5.3/lib/clearance/app/controllers/application_controller.rb:77:in `deny_access'
+  vendor/gems/thoughtbot-clearance-0.5.3/lib/clearance/app/controllers/sessions_controller.rb:31:in `create'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2009-09-04 13:15:09) [POST]
+  Parameters: {"commit"=>"Sign in", "action"=>"create", "authenticity_token"=>"l5SBi7UmsesH+ZWF8kuX/jbyhtTDGcZosv/Z7bDweCs=", "session"=>{"password"=>"[FILTERED]", "remember_me"=>"0", "email"=>"stacie.frederick@gmail.com"}, "controller"=>"sessions"}
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."email" = 'stacie.frederick@gmail.com') LIMIT 1[0m
+Sent mail to stacie.frederick@gmail.com
+
+From: donotreply@example.com
+To: stacie.frederick@gmail.com
+Subject: Account confirmation
+Mime-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+
+http://twitterapp.local/users/1/confirmation/new
+Rendering template within layouts/rocket
+Rendering /sessions/new (unauthorized)
+Completed in 27ms (View: 3, DB: 0) | 401 Unauthorized [http://0.0.0.0/session]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2009-09-04 13:15:18) [POST]
+  Parameters: {"commit"=>"Sign in", "action"=>"create", "authenticity_token"=>"l5SBi7UmsesH+ZWF8kuX/jbyhtTDGcZosv/Z7bDweCs=", "session"=>{"password"=>"[FILTERED]", "remember_me"=>"0", "email"=>"stacie.frederick@gmail.com"}, "controller"=>"sessions"}
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."email" = 'stacie.frederick@gmail.com') LIMIT 1[0m
+Sent mail to stacie.frederick@gmail.com
+
+From: donotreply@example.com
+To: stacie.frederick@gmail.com
+Subject: Account confirmation
+Mime-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+
+http://twitterapp.local/users/1/confirmation/new
+Rendering template within layouts/rocket
+Rendering /sessions/new (unauthorized)
+Completed in 19ms (View: 3, DB: 0) | 401 Unauthorized [http://0.0.0.0/session]
+
+
+Processing ConfirmationsController#new (for 127.0.0.1 at 2009-09-04 13:16:07) [GET]
+  Parameters: {"action"=>"new", "controller"=>"confirmations", "user_id"=>"1"}
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = '1') LIMIT 1[0m
+
+ActionController::Forbidden (missing token):
+  vendor/gems/thoughtbot-clearance-0.5.3/lib/clearance/app/controllers/confirmations_controller.rb:45:in `forbid_missing_token'
+
+Rendered rescues/_trace (26.2ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (forbidden)
+
+
+Processing StatusesController#index (for 127.0.0.1 at 2009-09-04 13:18:48) [GET]
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Rendering template within layouts/statuses
+Rendering /sessions/new (unauthorized)
+Filter chain halted as [:authenticate] rendered_or_redirected.
+Completed in 9ms (View: 2, DB: 0) | 401 Unauthorized [http://0.0.0.0/]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2009-09-04 13:19:00) [POST]
+  Parameters: {"commit"=>"Sign in", "action"=>"create", "authenticity_token"=>"l5SBi7UmsesH+ZWF8kuX/jbyhtTDGcZosv/Z7bDweCs=", "session"=>{"password"=>"[FILTERED]", "remember_me"=>"0", "email"=>"stacie.frederick@gmail.com"}, "controller"=>"sessions"}
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."email" = 'stacie.frederick@gmail.com') LIMIT 1[0m
+Sent mail to stacie.frederick@gmail.com
+
+From: donotreply@example.com
+To: stacie.frederick@gmail.com
+Subject: Account confirmation
+Mime-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+
+http://twitterapp.local/users/1/confirmation/new
+Rendering template within layouts/rocket
+Rendering /sessions/new (unauthorized)
+Completed in 19ms (View: 3, DB: 0) | 401 Unauthorized [http://0.0.0.0/session]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-09-04 13:19:11) [GET]
+
+ActionController::RoutingError (No route matches "/status" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2009-09-04 13:20:25) [POST]
+  Parameters: {"commit"=>"Sign in", "action"=>"create", "authenticity_token"=>"l5SBi7UmsesH+ZWF8kuX/jbyhtTDGcZosv/Z7bDweCs=", "session"=>{"password"=>"[FILTERED]", "remember_me"=>"0", "email"=>"stacie.frederick@gmail.com"}, "controller"=>"sessions"}
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."email" = 'stacie.frederick@gmail.com') LIMIT 1[0m
+Sent mail to stacie.frederick@gmail.com
+
+From: donotreply@example.com
+To: stacie.frederick@gmail.com
+Subject: Account confirmation
+Mime-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+
+http://twitterapp.local/users/1/confirmation/new
+Rendering template within layouts/rocket
+Rendering /sessions/new (unauthorized)
+Completed in 19ms (View: 3, DB: 0) | 401 Unauthorized [http://0.0.0.0/session]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-09-04 13:20:41) [GET]
+  Parameters: {"action"=>"new", "controller"=>"users"}
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Rendering template within layouts/rocket
+Rendering users/new
+Completed in 74ms (View: 65, DB: 0) | 200 OK [http://0.0.0.0/users/new]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2009-09-04 13:21:06) [GET]
+  Parameters: {"action"=>"index", "controller"=>"users"}
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM "users" [0m
+Rendering template within layouts/rocket
+Rendering users/index
+Completed in 17ms (View: 9, DB: 1) | 200 OK [http://0.0.0.0/users]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-09-04 13:22:03) [GET]
+
+ActionController::RoutingError (No route matches "/status" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-09-04 13:22:21) [GET]
+
+ActionController::RoutingError (No route matches "/statues" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing StatusesController#index (for 127.0.0.1 at 2009-09-04 13:22:36) [GET]
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Rendering template within layouts/statuses
+Rendering /sessions/new (unauthorized)
+Filter chain halted as [:authenticate] rendered_or_redirected.
+Completed in 10ms (View: 2, DB: 0) | 401 Unauthorized [http://0.0.0.0/statuses]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-09-04 13:27:11) [GET]
+
+ActionController::RoutingError (No route matches "/user" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UsersController#index (for 127.0.0.1 at 2009-09-04 13:27:15) [GET]
+  Parameters: {"action"=>"index", "controller"=>"users"}
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" [0m
+Rendering template within layouts/rocket
+Rendering users/index
+Completed in 15ms (View: 10, DB: 1) | 200 OK [http://0.0.0.0/users]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-09-04 13:27:19) [GET]
+  Parameters: {"action"=>"show", "id"=>"logout", "controller"=>"users"}
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+
+NoMethodError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.client):
+  app/controllers/users_controller.rb:8:in `show'
+
+Rendered rescues/_trace (24.2ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StatusesController#index (for 127.0.0.1 at 2009-09-04 13:27:25) [GET]
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Rendering template within layouts/statuses
+Rendering /sessions/new (unauthorized)
+Filter chain halted as [:authenticate] rendered_or_redirected.
+Completed in 9ms (View: 2, DB: 0) | 401 Unauthorized [http://0.0.0.0/]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2009-09-04 13:27:34) [POST]
+  Parameters: {"commit"=>"Sign in", "action"=>"create", "authenticity_token"=>"l5SBi7UmsesH+ZWF8kuX/jbyhtTDGcZosv/Z7bDweCs=", "session"=>{"password"=>"[FILTERED]", "remember_me"=>"0", "email"=>"stacie.frederick@gmail.com"}, "controller"=>"sessions"}
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."email" = 'stacie.frederick@gmail.com') LIMIT 1[0m
+Rendering template within layouts/rocket
+Rendering sessions/new (unauthorized)
+Completed in 11ms (View: 3, DB: 0) | 401 Unauthorized [http://0.0.0.0/session]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2009-09-04 13:27:46) [POST]
+  Parameters: {"commit"=>"Sign in", "action"=>"create", "authenticity_token"=>"l5SBi7UmsesH+ZWF8kuX/jbyhtTDGcZosv/Z7bDweCs=", "session"=>{"password"=>"[FILTERED]", "remember_me"=>"0", "email"=>"stacie.frederick@gmail.com"}, "controller"=>"sessions"}
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."email" = 'stacie.frederick@gmail.com') LIMIT 1[0m
+Rendering template within layouts/rocket
+Rendering sessions/new (unauthorized)
+Completed in 11ms (View: 3, DB: 0) | 401 Unauthorized [http://0.0.0.0/session]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2009-09-04 13:30:31) [GET]
+  Parameters: {"action"=>"index", "controller"=>"users"}
+  [4;35;1mUser Load (0.8ms)[0m   [0mSELECT * FROM "users" [0m
+Rendering template within layouts/rocket
+Rendering users/index
+Completed in 12ms (View: 6, DB: 1) | 200 OK [http://0.0.0.0/users]
+
+
+Processing UsersController#destroy (for 127.0.0.1 at 2009-09-04 13:30:39) [DELETE]
+  Parameters: {"action"=>"destroy", "_method"=>"delete", "authenticity_token"=>"l5SBi7UmsesH+ZWF8kuX/jbyhtTDGcZosv/Z7bDweCs=", "id"=>"1", "controller"=>"users"}
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+  [4;35;1mUser Destroy (0.5ms)[0m   [0mDELETE FROM "users" WHERE "id" = 1[0m
+Redirected to http://0.0.0.0:3000/users
+Completed in 13ms (DB: 1) | 302 Found [http://0.0.0.0/users/1]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2009-09-04 13:30:39) [GET]
+  Parameters: {"action"=>"index", "controller"=>"users"}
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" [0m
+Rendering template within layouts/rocket
+Rendering users/index
+Completed in 12ms (View: 6, DB: 1) | 200 OK [http://0.0.0.0/users]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-09-04 13:30:41) [GET]
+  Parameters: {"action"=>"new", "controller"=>"users"}
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Rendering template within layouts/rocket
+Rendering users/new
+Completed in 13ms (View: 5, DB: 0) | 200 OK [http://0.0.0.0/users/new]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-09-04 13:30:58) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>"[FILTERED]", "tw_auth"=>"1", "fb_auth"=>"0", "username"=>"stacie", "password"=>"[FILTERED]", "email"=>"stacie.frederick@gmail.com"}, "commit"=>"Create", "action"=>"create", "authenticity_token"=>"l5SBi7UmsesH+ZWF8kuX/jbyhtTDGcZosv/Z7bDweCs=", "controller"=>"users"}
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+WARNING: Can't mass-assign these protected attributes: tw_auth, fb_auth, username
+  [4;35;1mUser Exists (0.2ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'stacie.frederick@gmail.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.4ms)[0m   [0;1mINSERT INTO "users" ("encrypted_password", "salt", "updated_at", "token", "username", "token_expires_at", "tw_auth", "fb_auth", "password", "email", "created_at", "email_confirmed") VALUES('f4529fbaee2a3f6921aa9ae17d4c10beeda133ab', '672445ec5b1237b9bb72244e5a8f185fabaae7ab', '2009-09-04 20:30:58', 'cfaae006ddc2b854355603ef471ccea9c8c3a960', NULL, NULL, NULL, NULL, NULL, 'stacie.frederick@gmail.com', '2009-09-04 20:30:58', 'f')[0m
+Redirected to http://0.0.0.0:3000/users/4
+Completed in 134ms (DB: 1) | 302 Found [http://0.0.0.0/users]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-09-04 13:30:58) [GET]
+  Parameters: {"action"=>"show", "id"=>"4", "controller"=>"users"}
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+
+NoMethodError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.client):
+  app/controllers/users_controller.rb:8:in `show'
+
+Rendered rescues/_trace (25.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StatusesController#index (for 127.0.0.1 at 2009-09-04 13:31:18) [GET]
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Rendering template within layouts/statuses
+Rendering /sessions/new (unauthorized)
+Filter chain halted as [:authenticate] rendered_or_redirected.
+Completed in 8ms (View: 2, DB: 0) | 401 Unauthorized [http://0.0.0.0/]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-09-04 13:31:21) [GET]
+  Parameters: {"action"=>"new", "controller"=>"users"}
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Rendering template within layouts/rocket
+Rendering users/new
+Completed in 13ms (View: 5, DB: 0) | 200 OK [http://0.0.0.0/users/new]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-09-04 13:31:34) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>"[FILTERED]", "tw_auth"=>"1", "fb_auth"=>"0", "username"=>"stacie", "password"=>"[FILTERED]", "email"=>"stacie.frederick@gmail.com"}, "commit"=>"Create", "action"=>"create", "authenticity_token"=>"l5SBi7UmsesH+ZWF8kuX/jbyhtTDGcZosv/Z7bDweCs=", "controller"=>"users"}
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+WARNING: Can't mass-assign these protected attributes: tw_auth, fb_auth, username
+  [4;35;1mUser Exists (0.2ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'stacie.frederick@gmail.com') LIMIT 1[0m
+Rendering template within layouts/rocket
+Rendering users/new
+Completed in 17ms (View: 4, DB: 0) | 200 OK [http://0.0.0.0/users]
+
+
+Processing StatusesController#index (for 127.0.0.1 at 2009-09-04 13:31:44) [GET]
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Rendering template within layouts/statuses
+Rendering /sessions/new (unauthorized)
+Filter chain halted as [:authenticate] rendered_or_redirected.
+Completed in 8ms (View: 2, DB: 0) | 401 Unauthorized [http://0.0.0.0/]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2009-09-04 13:31:53) [POST]
+  Parameters: {"commit"=>"Sign in", "action"=>"create", "authenticity_token"=>"l5SBi7UmsesH+ZWF8kuX/jbyhtTDGcZosv/Z7bDweCs=", "session"=>{"password"=>"[FILTERED]", "remember_me"=>"0", "email"=>"stacie.frederick@gmail.com"}, "controller"=>"sessions"}
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."email" = 'stacie.frederick@gmail.com') LIMIT 1[0m
+Sent mail to stacie.frederick@gmail.com
+
+From: donotreply@example.com
+To: stacie.frederick@gmail.com
+Subject: Account confirmation
+Mime-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+
+http://twitterapp.local/users/4/confirmation/new?token=cfaae006ddc2b854355603ef471ccea9c8c3a960
+Rendering template within layouts/rocket
+Rendering /sessions/new (unauthorized)
+Completed in 19ms (View: 3, DB: 0) | 401 Unauthorized [http://0.0.0.0/session]
+
+
+Processing ConfirmationsController#new (for 127.0.0.1 at 2009-09-04 13:32:15) [GET]
+  Parameters: {"token"=>"[FILTERED]", "action"=>"new", "controller"=>"confirmations", "user_id"=>"4"}
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = '4') LIMIT 1[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."token" = 'cfaae006ddc2b854355603ef471ccea9c8c3a960' AND "users"."id" = '4') LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."token" = 'cfaae006ddc2b854355603ef471ccea9c8c3a960' AND "users"."id" = '4') LIMIT 1[0m
+  [4;35;1mUser Update (0.5ms)[0m   [0mUPDATE "users" SET "email_confirmed" = 't', "token" = NULL, "updated_at" = '2009-09-04 20:32:15' WHERE "id" = 4[0m
+Redirected to http://0.0.0.0:3000/
+Completed in 16ms (DB: 1) | 302 Found [http://0.0.0.0/users/4/confirmation/new?token=cfaae006ddc2b854355603ef471ccea9c8c3a960]
+
+
+Processing StatusesController#index (for 127.0.0.1 at 2009-09-04 13:32:15) [GET]
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 4) LIMIT 1[0m
+
+NameError (undefined local variable or method `atoken' for #<User:0x24acb4c>):
+  app/models/user.rb:19:in `client'
+  app/controllers/statuses_controller.rb:6:in `index'
+
+Rendered rescues/_trace (31.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StatusesController#index (for 127.0.0.1 at 2009-09-04 13:37:34) [GET]
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 4) LIMIT 1[0m
+
+NameError (undefined local variable or method `atoken' for #<User:0x2489a34>):
+  app/models/user.rb:19:in `client'
+  app/controllers/statuses_controller.rb:6:in `index'
+
+Rendered rescues/_trace (25.6ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StatusesController#index (for 127.0.0.1 at 2009-09-04 13:37:36) [GET]
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 4) LIMIT 1[0m
+
+NameError (undefined local variable or method `atoken' for #<User:0x2325a08>):
+  app/models/user.rb:19:in `client'
+  app/controllers/statuses_controller.rb:6:in `index'
+
+Rendered rescues/_trace (24.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StatusesController#index (for 127.0.0.1 at 2009-09-04 13:37:37) [GET]
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 4) LIMIT 1[0m
+
+NameError (undefined local variable or method `atoken' for #<User:0x250deb0>):
+  app/models/user.rb:19:in `client'
+  app/controllers/statuses_controller.rb:6:in `index'
+
+Rendered rescues/_trace (25.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StatusesController#index (for 127.0.0.1 at 2009-09-04 13:37:39) [GET]
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 4) LIMIT 1[0m
+
+NameError (undefined local variable or method `atoken' for #<User:0x23a2e04>):
+  app/models/user.rb:19:in `client'
+  app/controllers/statuses_controller.rb:6:in `index'
+
+Rendered rescues/_trace (24.1ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20090730011853)
+Migrating to AddFbUseridToUsers (20090805021706)
+Migrating to AddTwUseridToUsers (20090805021727)
+Migrating to CreateStatuses (20090806062746)
+Migrating to CreateOrUpdateUsersWithClearanceColumns (20090812065516)
+Migrating to AddAuthToUser (20090812080253)
+Migrating to AddAtokeAsecret (20090904204248)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mALTER TABLE "users" ADD "atoken" varchar(255)[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mALTER TABLE "users" ADD "asecret" varchar(255)[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20090904204248')[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("statuses")[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mPRAGMA index_list("users")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_info('index_users_on_token')[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_info('index_users_on_email')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_info('index_users_on_id_and_token')[0m
+
+
+Processing StatusesController#index (for 127.0.0.1 at 2009-09-04 13:45:08) [GET]
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 4) LIMIT 1[0m
+Redirected to http://0.0.0.0:3000/authorization/new
+
+
+Processing AuthorizationsController#new (for 127.0.0.1 at 2009-09-04 13:45:09) [GET]
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 4) LIMIT 1[0m
+Redirected to http://twitter.com/oauth/authorize?oauth_token=nuzMJa0LdUqJZpY8T7lqOT29YGzhOiRFLgfijJTseM
+Completed in 98ms (DB: 0) | 302 Found [http://0.0.0.0/authorization/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-09-04 13:46:18) [GET]
+  Parameters: {"oauth_token"=>"nuzMJa0LdUqJZpY8T7lqOT29YGzhOiRFLgfijJTseM"}
+
+ActionController::RoutingError (No route matches "/admin/tw" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AuthorizationsController#show (for 127.0.0.1 at 2009-09-04 13:47:43) [GET]
+  Parameters: {"oauth_token"=>"nuzMJa0LdUqJZpY8T7lqOT29YGzhOiRFLgfijJTseM"}
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 4) LIMIT 1[0m
+  [4;36;1mUser Exists (0.2ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'stacie.frederick@gmail.com' AND "users".id <> 4) LIMIT 1[0m
+Redirected to http://0.0.0.0:3000/
+Completed in 1343ms (DB: 1) | 302 Found [http://0.0.0.0/authorizations/show?oauth_token=nuzMJa0LdUqJZpY8T7lqOT29YGzhOiRFLgfijJTseM]
+
+
+Processing StatusesController#index (for 127.0.0.1 at 2009-09-04 13:47:44) [GET]
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 4) LIMIT 1[0m
+Redirected to http://0.0.0.0:3000/authorization/new
+
+
+Processing AuthorizationsController#new (for 127.0.0.1 at 2009-09-04 13:47:45) [GET]
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 4) LIMIT 1[0m
+Redirected to http://twitter.com/oauth/authorize?oauth_token=6WDM7QSYB9LqJsdBV47Jc0CfVqQp4w55bdpwAmwj18g
+Completed in 71ms (DB: 0) | 302 Found [http://0.0.0.0/authorization/new]
+
+
+Processing StatusesController#index (for 127.0.0.1 at 2009-09-04 13:48:13) [GET]
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 4) LIMIT 1[0m
+Redirected to http://0.0.0.0:3000/authorization/new
+
+
+Processing AuthorizationsController#new (for 127.0.0.1 at 2009-09-04 13:48:13) [GET]
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 4) LIMIT 1[0m
+Redirected to http://twitter.com/oauth/authorize?oauth_token=6NUz8tGXVYQvWWkf0o1MiXLl05lwjxMZKbwkB3s
+Completed in 98ms (DB: 0) | 302 Found [http://0.0.0.0/authorization/new]
+
+
+Processing AuthorizationsController#show (for 127.0.0.1 at 2009-09-04 13:49:39) [GET]
+  Parameters: {"oauth_token"=>"6NUz8tGXVYQvWWkf0o1MiXLl05lwjxMZKbwkB3s"}
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 4) LIMIT 1[0m
+  [4;36;1mUser Exists (0.2ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'stacie.frederick@gmail.com' AND "users".id <> 4) LIMIT 1[0m
+Redirected to http://0.0.0.0:3000/
+Completed in 161ms (DB: 0) | 302 Found [http://0.0.0.0/authorizations/show?oauth_token=6NUz8tGXVYQvWWkf0o1MiXLl05lwjxMZKbwkB3s]
+
+
+Processing StatusesController#index (for 127.0.0.1 at 2009-09-04 13:49:39) [GET]
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 4) LIMIT 1[0m
+Redirected to http://0.0.0.0:3000/authorization/new
+
+
+Processing AuthorizationsController#new (for 127.0.0.1 at 2009-09-04 13:49:39) [GET]
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 4) LIMIT 1[0m
+Redirected to http://twitter.com/oauth/authorize?oauth_token=zuCEYD22Q5VHLMj32B3vwn6oPgLSdTUfrT7dPJShOM
+Completed in 66ms (DB: 0) | 302 Found [http://0.0.0.0/authorization/new]
+
+
+Processing AuthorizationsController#new (for 127.0.0.1 at 2009-09-04 13:50:20) [GET]
+  Parameters: {"oauth_token"=>"6NUz8tGXVYQvWWkf0o1MiXLl05lwjxMZKbwkB3s"}
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 4) LIMIT 1[0m
+Redirected to http://twitter.com/oauth/authorize?oauth_token=h0jIWcXpJU7OTGHfxRKLBg4FmeHN9wdGKOAakivIU
+Completed in 85ms (DB: 0) | 302 Found [http://0.0.0.0/authorizations/new?oauth_token=6NUz8tGXVYQvWWkf0o1MiXLl05lwjxMZKbwkB3s]
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20090730011853)
+Migrating to AddFbUseridToUsers (20090805021706)
+Migrating to AddTwUseridToUsers (20090805021727)
+Migrating to CreateStatuses (20090806062746)
+Migrating to CreateOrUpdateUsersWithClearanceColumns (20090812065516)
+Migrating to AddAuthToUser (20090812080253)
+Migrating to AddAtokeAsecret (20090904204248)
+Migrating to AddEncryptedPassword (20090904205633)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20090730011853)
+Migrating to AddFbUseridToUsers (20090805021706)
+Migrating to AddTwUseridToUsers (20090805021727)
+Migrating to CreateStatuses (20090806062746)
+Migrating to CreateOrUpdateUsersWithClearanceColumns (20090812065516)
+Migrating to AddAuthToUser (20090812080253)
+Migrating to AddAtokeAsecret (20090904204248)
+Migrating to AddEncryptedPassword (20090904205633)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSQLite3::SQLException: duplicate column name: encrypted_password: ALTER TABLE "users" ADD "encrypted_password" varchar(255)[0m
+
+
+Processing StatusesController#index (for 127.0.0.1 at 2009-09-04 14:08:45) [GET]
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 4) LIMIT 1[0m
+Rendering template within layouts/statuses
+Rendering /sessions/new (unauthorized)
+Filter chain halted as [:authenticate] rendered_or_redirected.
+Completed in 23ms (View: 10, DB: 0) | 401 Unauthorized [http://0.0.0.0/]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-09-04 14:08:53) [GET]
+  Parameters: {"action"=>"new", "controller"=>"users"}
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 4) LIMIT 1[0m
+Rendering template within layouts/rocket
+Rendering users/new
+Completed in 24ms (View: 16, DB: 0) | 200 OK [http://0.0.0.0/users/new]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-09-04 14:09:12) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>"[FILTERED]", "tw_auth"=>"0", "fb_auth"=>"0", "username"=>"stacie", "password"=>"[FILTERED]", "email"=>"stacie@alum.calberkeley.org"}, "commit"=>"Create", "action"=>"create", "authenticity_token"=>"l5SBi7UmsesH+ZWF8kuX/jbyhtTDGcZosv/Z7bDweCs=", "controller"=>"users"}
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 4) LIMIT 1[0m
+WARNING: Can't mass-assign these protected attributes: tw_auth, fb_auth, username
+  [4;35;1mUser Exists (0.3ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'stacie@alum.calberkeley.org') LIMIT 1[0m
+Rendering template within layouts/rocket
+Rendering users/new
+Completed in 136ms (View: 4, DB: 0) | 200 OK [http://0.0.0.0/users]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-09-04 14:09:32) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>"[FILTERED]", "tw_auth"=>"1", "fb_auth"=>"0", "username"=>"stacie", "password"=>"[FILTERED]", "email"=>"stacie.frederick@gmail.com"}, "commit"=>"Create", "action"=>"create", "authenticity_token"=>"l5SBi7UmsesH+ZWF8kuX/jbyhtTDGcZosv/Z7bDweCs=", "controller"=>"users"}
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 4) LIMIT 1[0m
+WARNING: Can't mass-assign these protected attributes: tw_auth, fb_auth, username
+  [4;35;1mUser Exists (0.2ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'stacie.frederick@gmail.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.5ms)[0m   [0;1mINSERT INTO "users" ("encrypted_password", "salt", "updated_at", "token", "username", "token_expires_at", "tw_auth", "fb_auth", "atoken", "asecret", "password", "email", "created_at", "email_confirmed") VALUES('0fcec374e87ceefe6883d982f35afaff652a3767', 'ab4bb67acc3791c56111ef5a9a48ad7fde427085', '2009-09-04 21:09:32', '8adee63a7c2b2a093ec53145ccdc2f4f07e35fe6', NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'stacie.frederick@gmail.com', '2009-09-04 21:09:32', 'f')[0m
+Redirected to http://0.0.0.0:3000/users/5
+Completed in 19ms (DB: 1) | 302 Found [http://0.0.0.0/users]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-09-04 14:09:32) [GET]
+  Parameters: {"action"=>"show", "id"=>"5", "controller"=>"users"}
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 4) LIMIT 1[0m
+
+NoMethodError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.client):
+  app/controllers/users_controller.rb:8:in `show'
+
+Rendered rescues/_trace (27.6ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StatusesController#index (for 127.0.0.1 at 2009-09-04 14:10:17) [GET]
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 4) LIMIT 1[0m
+Rendering template within layouts/statuses
+Rendering /sessions/new (unauthorized)
+Filter chain halted as [:authenticate] rendered_or_redirected.
+Completed in 11ms (View: 2, DB: 0) | 401 Unauthorized [http://0.0.0.0/]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-09-04 14:10:26) [GET]
+  Parameters: {"action"=>"new", "controller"=>"users"}
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 4) LIMIT 1[0m
+Rendering template within layouts/rocket
+Rendering users/new
+Completed in 13ms (View: 5, DB: 0) | 200 OK [http://0.0.0.0/users/new]
+
+
+Processing StatusesController#index (for 127.0.0.1 at 2009-09-04 14:12:22) [GET]
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 4) LIMIT 1[0m
+Rendering template within layouts/statuses
+Rendering /sessions/new (unauthorized)
+Filter chain halted as [:authenticate] rendered_or_redirected.
+Completed in 9ms (View: 2, DB: 0) | 401 Unauthorized [http://0.0.0.0/]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-09-04 14:13:13) [GET]
+  Parameters: {"action"=>"new", "controller"=>"users"}
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 4) LIMIT 1[0m
+Rendering template within layouts/rocket
+Rendering users/new
+Rendered users/_form (1.2ms)
+Completed in 21ms (View: 13, DB: 0) | 200 OK [http://0.0.0.0/users/new]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-09-04 14:13:35) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>"[FILTERED]", "password"=>"[FILTERED]", "email"=>"stacie.frederick@gmail.com"}, "commit"=>"Sign up", "action"=>"create", "authenticity_token"=>"l5SBi7UmsesH+ZWF8kuX/jbyhtTDGcZosv/Z7bDweCs=", "controller"=>"users"}
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 4) LIMIT 1[0m
+  [4;35;1mUser Exists (0.2ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'stacie.frederick@gmail.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.4ms)[0m   [0;1mINSERT INTO "users" ("encrypted_password", "salt", "updated_at", "token", "username", "token_expires_at", "tw_auth", "fb_auth", "atoken", "asecret", "password", "email", "created_at", "email_confirmed") VALUES('7f7089ff07f7391b8318c192ccff873955382719', '1e8a051377e01faa909ec7deddb154158985b69a', '2009-09-04 21:13:35', '2ab9418258af1254ab017b82ef1aa46e69cc7eed', NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'stacie.frederick@gmail.com', '2009-09-04 21:13:35', 'f')[0m
+Redirected to http://0.0.0.0:3000/users/6
+Completed in 22ms (DB: 1) | 302 Found [http://0.0.0.0/users]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-09-04 14:13:35) [GET]
+  Parameters: {"action"=>"show", "id"=>"6", "controller"=>"users"}
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 4) LIMIT 1[0m
+
+NoMethodError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.client):
+  app/controllers/users_controller.rb:8:in `show'
+
+Rendered rescues/_trace (24.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-09-04 14:19:20) [GET]
+  Parameters: {"action"=>"show", "id"=>"6", "controller"=>"users"}
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 4) LIMIT 1[0m
+
+NoMethodError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.client):
+  app/controllers/users_controller.rb:8:in `show'
+
+Rendered rescues/_trace (84.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StatusesController#index (for 127.0.0.1 at 2009-09-04 14:19:47) [GET]
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 4) LIMIT 1[0m
+Rendering template within layouts/statuses
+Rendering /sessions/new (unauthorized)
+Filter chain halted as [:authenticate] rendered_or_redirected.
+Completed in 8ms (View: 2, DB: 0) | 401 Unauthorized [http://0.0.0.0/]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-09-04 14:19:50) [GET]
+  Parameters: {"action"=>"new", "controller"=>"users"}
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 4) LIMIT 1[0m
+Rendering template within layouts/rocket
+Rendering users/new
+Rendered users/_form (0.5ms)
+Completed in 13ms (View: 5, DB: 0) | 200 OK [http://0.0.0.0/users/new]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-09-04 14:20:00) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>"[FILTERED]", "password"=>"[FILTERED]", "email"=>"stacie@alum.calberkeley.org"}, "commit"=>"Sign up", "action"=>"create", "authenticity_token"=>"l5SBi7UmsesH+ZWF8kuX/jbyhtTDGcZosv/Z7bDweCs=", "controller"=>"users"}
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 4) LIMIT 1[0m
+  [4;36;1mUser Exists (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'stacie@alum.calberkeley.org') LIMIT 1[0m
+  [4;35;1mUser Create (0.4ms)[0m   [0mINSERT INTO "users" ("encrypted_password", "salt", "updated_at", "token", "username", "token_expires_at", "tw_auth", "fb_auth", "atoken", "asecret", "password", "email", "created_at", "email_confirmed") VALUES('3a0473d391bb70d29a06ebb216a8dc0e0c0875fc', '6fa1dcca4d826a8ff87b63e6644d70c88ad582d9', '2009-09-04 21:20:00', '3a5d6d51bc3f2d4f2f9d4056cb1b02db77a51513', NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'stacie@alum.calberkeley.org', '2009-09-04 21:20:00', 'f')[0m
+Sent mail to stacie@alum.calberkeley.org
+
+From: donotreply@example.com
+To: stacie@alum.calberkeley.org
+Subject: Account confirmation
+Mime-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+
+http://twitterapp.local/users/7/confirmation/new?token=3a5d6d51bc3f2d4f2f9d4056cb1b02db77a51513
+Redirected to http://0.0.0.0:3000/session/new
+Completed in 40ms (DB: 1) | 302 Found [http://0.0.0.0/users]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-09-04 14:20:00) [GET]
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Rendering template within layouts/rocket
+Rendering sessions/new
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://0.0.0.0/session/new]
+
+
+Processing ConfirmationsController#new (for 127.0.0.1 at 2009-09-04 14:20:16) [GET]
+  Parameters: {"token"=>"[FILTERED]", "action"=>"new", "controller"=>"confirmations", "user_id"=>"7"}
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = '7') LIMIT 1[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."token" = '3a5d6d51bc3f2d4f2f9d4056cb1b02db77a51513' AND "users"."id" = '7') LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."token" = '3a5d6d51bc3f2d4f2f9d4056cb1b02db77a51513' AND "users"."id" = '7') LIMIT 1[0m
+  [4;35;1mUser Update (0.5ms)[0m   [0mUPDATE "users" SET "email_confirmed" = 't', "token" = NULL, "updated_at" = '2009-09-04 21:20:16' WHERE "id" = 7[0m
+Redirected to http://0.0.0.0:3000/
+Completed in 15ms (DB: 1) | 302 Found [http://0.0.0.0/users/7/confirmation/new?token=3a5d6d51bc3f2d4f2f9d4056cb1b02db77a51513]
+
+
+Processing StatusesController#index (for 127.0.0.1 at 2009-09-04 14:20:16) [GET]
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 7) LIMIT 1[0m
+Redirected to http://0.0.0.0:3000/authorization/new
+
+
+Processing AuthorizationsController#new (for 127.0.0.1 at 2009-09-04 14:20:18) [GET]
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 7) LIMIT 1[0m
+Redirected to http://twitter.com/oauth/authorize?oauth_token=UQ8otqWEg6eHdxcrYYbkL5RsmCE6uFYR1FDsH0790
+Completed in 851ms (DB: 0) | 302 Found [http://0.0.0.0/authorization/new]
+
+
+Processing AuthorizationsController#index (for 127.0.0.1 at 2009-09-04 14:21:03) [GET]
+  Parameters: {"oauth_token"=>"UQ8otqWEg6eHdxcrYYbkL5RsmCE6uFYR1FDsH0790"}
+
+ActionController::UnknownAction (No action responded to index. Actions: new and show):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AuthorizationsController#show (for 127.0.0.1 at 2009-09-04 14:21:52) [GET]
+  Parameters: {"oauth_token"=>"UQ8otqWEg6eHdxcrYYbkL5RsmCE6uFYR1FDsH0790"}
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 7) LIMIT 1[0m
+  [4;35;1mUser Exists (0.2ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'stacie@alum.calberkeley.org' AND "users".id <> 7) LIMIT 1[0m
+Redirected to http://0.0.0.0:3000/
+Completed in 356ms (DB: 1) | 302 Found [http://0.0.0.0/authorization?oauth_token=UQ8otqWEg6eHdxcrYYbkL5RsmCE6uFYR1FDsH0790]
+
+
+Processing StatusesController#index (for 127.0.0.1 at 2009-09-04 14:21:52) [GET]
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 7) LIMIT 1[0m
+Redirected to http://0.0.0.0:3000/authorization/new
+
+
+Processing AuthorizationsController#new (for 127.0.0.1 at 2009-09-04 14:21:52) [GET]
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 7) LIMIT 1[0m
+Redirected to http://twitter.com/oauth/authorize?oauth_token=2sa9kksOOG9hBWSvyPCoip2m5bAchZKKDuSR9IWQ0VQ
+Completed in 101ms (DB: 0) | 302 Found [http://0.0.0.0/authorization/new]
+
+
+Processing StatusesController#index (for 127.0.0.1 at 2009-09-04 14:22:39) [GET]
+  Parameters: {"oauth_token"=>"2sa9kksOOG9hBWSvyPCoip2m5bAchZKKDuSR9IWQ0VQ"}
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 7) LIMIT 1[0m
+Redirected to http://0.0.0.0:3000/authorization/new
+
+
+Processing AuthorizationsController#new (for 127.0.0.1 at 2009-09-04 14:22:39) [GET]
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 7) LIMIT 1[0m
+Redirected to http://twitter.com/oauth/authorize?oauth_token=v9mUgCtERHB1L13GUKInIPCsIDAYLp1FX5TJYvqzJE
+Completed in 475ms (DB: 0) | 302 Found [http://0.0.0.0/authorization/new]
+
+
+Processing StatusesController#index (for 127.0.0.1 at 2009-09-04 14:23:10) [GET]
+  Parameters: {"oauth_token"=>"v9mUgCtERHB1L13GUKInIPCsIDAYLp1FX5TJYvqzJE"}
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 7) LIMIT 1[0m
+Redirected to http://0.0.0.0:3000/authorization/new
+
+
+Processing AuthorizationsController#new (for 127.0.0.1 at 2009-09-04 14:23:11) [GET]
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 7) LIMIT 1[0m
+Redirected to http://twitter.com/oauth/authorize?oauth_token=N97myaeQpfLS9hMCT5gkHk4IcMx2UPLHGSHWZLLny8
+Completed in 826ms (DB: 0) | 302 Found [http://0.0.0.0/authorization/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-09-04 14:25:41) [GET]
+  Parameters: {"oauth_token"=>"v9mUgCtERHB1L13GUKInIPCsIDAYLp1FX5TJYvqzJE"}
+
+ActionController::RoutingError (No route matches "/authorization/show" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing StatusesController#index (for 127.0.0.1 at 2009-09-04 14:28:45) [GET]
+  Parameters: {"oauth_token"=>"v9mUgCtERHB1L13GUKInIPCsIDAYLp1FX5TJYvqzJE"}
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 7) LIMIT 1[0m
+Redirected to http://0.0.0.0:3000/authorization/new
+
+
+Processing AuthorizationsController#new (for 127.0.0.1 at 2009-09-04 14:28:45) [GET]
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 7) LIMIT 1[0m
+Redirected to http://twitter.com/oauth/authorize?oauth_token=YJemTdrw81a3QJR4nCuZUTWOANyWW4X1zG4aPc32EW0
+Completed in 274ms (DB: 0) | 302 Found [http://0.0.0.0/authorization/new]
+
+
+Processing AuthorizationsController#show (for 127.0.0.1 at 2009-09-04 14:30:09) [GET]
+  Parameters: {"oauth_token"=>"YJemTdrw81a3QJR4nCuZUTWOANyWW4X1zG4aPc32EW0"}
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 7) LIMIT 1[0m
+  [4;35;1mUser Exists (0.2ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'stacie@alum.calberkeley.org' AND "users".id <> 7) LIMIT 1[0m
+Redirected to http://0.0.0.0:3000/
+Completed in 453ms (DB: 1) | 302 Found [http://0.0.0.0/authorization?oauth_token=YJemTdrw81a3QJR4nCuZUTWOANyWW4X1zG4aPc32EW0]
+
+
+Processing StatusesController#index (for 127.0.0.1 at 2009-09-04 14:30:09) [GET]
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 7) LIMIT 1[0m
+Redirected to http://0.0.0.0:3000/authorization/new
+
+
+Processing AuthorizationsController#new (for 127.0.0.1 at 2009-09-04 14:30:09) [GET]
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 7) LIMIT 1[0m
+Redirected to http://twitter.com/oauth/authorize?oauth_token=XvIvwyHOLSp5FswzxOI3iQiwzyZMsnlxBF6Hx23TI
+Completed in 239ms (DB: 0) | 302 Found [http://0.0.0.0/authorization/new]
+
+
+Processing StatusesController#index (for 127.0.0.1 at 2009-09-04 14:36:29) [GET]
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 7) LIMIT 1[0m
+Redirected to http://0.0.0.0:3000/authorization/new
+
+
+Processing AuthorizationsController#new (for 127.0.0.1 at 2009-09-04 14:36:29) [GET]
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 7) LIMIT 1[0m
+Redirected to http://twitter.com/oauth/authorize?oauth_token=1lK9gGRtlFavlOz7kvDveisPx3QUc0TKbmh2YFdU
+Completed in 69ms (DB: 0) | 302 Found [http://0.0.0.0/authorization/new]
+
+
+Processing StatusesController#index (for 127.0.0.1 at 2009-09-04 14:37:14) [GET]
+  Parameters: {"oauth_token"=>"1lK9gGRtlFavlOz7kvDveisPx3QUc0TKbmh2YFdU"}
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 7) LIMIT 1[0m
+Redirected to http://0.0.0.0:3000/authorization/new
+
+
+Processing AuthorizationsController#new (for 127.0.0.1 at 2009-09-04 14:37:14) [GET]
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 7) LIMIT 1[0m
+Redirected to http://twitter.com/oauth/authorize?oauth_token=oSgM4w4oIOrkW93zUtbHixXcPSxeG0plTeyEM5mSGU
+Completed in 80ms (DB: 0) | 302 Found [http://0.0.0.0/authorization/new]
+
+
+Processing StatusesController#index (for 127.0.0.1 at 2009-09-04 14:37:53) [GET]
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 7) LIMIT 1[0m
+Redirected to http://0.0.0.0:3000/authorization/new
+
+
+Processing AuthorizationsController#new (for 127.0.0.1 at 2009-09-04 14:37:53) [GET]
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 7) LIMIT 1[0m
+Redirected to http://twitter.com/oauth/authorize?oauth_token=tNUVaBESJcKQCkgpKW1w2LQCYRNpQyTOOtBLfg3JBo
+Completed in 218ms (DB: 0) | 302 Found [http://0.0.0.0/authorization/new]
+
+
+Processing AuthorizationsController#show (for 127.0.0.1 at 2009-09-04 14:38:47) [GET]
+  Parameters: {"oauth_token"=>"tNUVaBESJcKQCkgpKW1w2LQCYRNpQyTOOtBLfg3JBo"}
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 7) LIMIT 1[0m
+  [4;35;1mUser Exists (0.2ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'stacie@alum.calberkeley.org' AND "users".id <> 7) LIMIT 1[0m
+Redirected to http://0.0.0.0:3000/
+Completed in 175ms (DB: 0) | 302 Found [http://0.0.0.0/authorization?oauth_token=tNUVaBESJcKQCkgpKW1w2LQCYRNpQyTOOtBLfg3JBo]
+
+
+Processing StatusesController#index (for 127.0.0.1 at 2009-09-04 14:38:47) [GET]
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 7) LIMIT 1[0m
+Redirected to http://0.0.0.0:3000/authorization/new
+
+
+Processing AuthorizationsController#new (for 127.0.0.1 at 2009-09-04 14:38:47) [GET]
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 7) LIMIT 1[0m
+Redirected to http://twitter.com/oauth/authorize?oauth_token=srvLV9J4rC5nA3MDSxOu4rpY8pMFJzm45xqvwAq3NY
+Completed in 69ms (DB: 0) | 302 Found [http://0.0.0.0/authorization/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-09-04 14:39:12) [GET]
+
+ActionController::RoutingError (No route matches "/users7" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-09-04 14:39:17) [GET]
+  Parameters: {"action"=>"show", "id"=>"7", "controller"=>"users"}
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 7) LIMIT 1[0m
+Rendering template within layouts/rocket
+Rendering users/show
+
+ActionView::TemplateError (No route matches {:controller=>"friends", :action=>"index"}) on line #28 of app/views/layouts/rocket.html.erb:
+25:       <% if session[:user_id] %>
+26:         <br />
+27:         <%= link_to 'Status', :controller => 'statuses' %><br />
+28:         <%= link_to 'Friends', :controller => 'friends' %><br />
+29:         <%= link_to 'Admin', :controller => 'users' %><br />
+30:         <%= link_to 'My Info', :controller => 'users', :id => session[:user_id], :action => 'edit' %><br />
+31:         <br />
+
+    app/views/layouts/rocket.html.erb:28
+
+Rendered rescues/_trace (93.6ms)
+Rendered rescues/_request_and_response (1.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSQLite3::SQLException: no such table: sessions: DELETE FROM sessions[0m
+
+
+Processing StatusesController#index (for 127.0.0.1 at 2009-09-04 14:42:15) [GET]
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 7) LIMIT 1[0m
+Rendering template within layouts/statuses
+Rendering /sessions/new (unauthorized)
+Filter chain halted as [:authenticate] rendered_or_redirected.
+Completed in 17ms (View: 9, DB: 0) | 401 Unauthorized [http://0.0.0.0/]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-09-04 14:42:22) [GET]
+  Parameters: {"action"=>"new", "controller"=>"users"}
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 7) LIMIT 1[0m
+Rendering template within layouts/rocket
+Rendering users/new
+Rendered users/_form (1.3ms)
+
+ActionView::TemplateError (No route matches {:controller=>"friends", :action=>"index"}) on line #28 of app/views/layouts/rocket.html.erb:
+25:       <% if session[:user_id] %>
+26:         <br />
+27:         <%= link_to 'Status', :controller => 'statuses' %><br />
+28:         <%= link_to 'Friends', :controller => 'friends' %><br />
+29:         <%= link_to 'Admin', :controller => 'users' %><br />
+30:         <%= link_to 'My Info', :controller => 'users', :id => session[:user_id], :action => 'edit' %><br />
+31:         <br />
+
+    app/views/layouts/rocket.html.erb:28
+
+Rendered rescues/_trace (88.2ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-09-04 14:43:10) [GET]
+  Parameters: {"action"=>"new", "controller"=>"users"}
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 7) LIMIT 1[0m
+Rendering template within layouts/rocket
+Rendering users/new
+Rendered users/_form (0.5ms)
+
+ActionView::TemplateError (No route matches {:action=>"logout"}) on line #32 of app/views/layouts/rocket.html.erb:
+29:         <%= link_to 'Admin', :controller => 'users' %><br />
+30:         <%= link_to 'My Info', :controller => 'users', :id => session[:user_id], :action => 'edit' %><br />
+31:         <br />
+32:         <%= link_to 'Logout', :action => 'logout'  %>
+33:       <% end %>
+34:     </div>
+35:     <div id="main">
+
+    app/views/layouts/rocket.html.erb:32
+
+Rendered rescues/_trace (97.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-09-04 14:44:43) [GET]
+  Parameters: {"action"=>"new", "controller"=>"users"}
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 7) LIMIT 1[0m
+Rendering template within layouts/rocket
+Rendering users/new
+Rendered users/_form (0.6ms)
+Completed in 16ms (View: 8, DB: 0) | 200 OK [http://0.0.0.0/users/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-09-04 14:44:54) [GET]
+  Parameters: {"action"=>"new", "controller"=>"users"}
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 7) LIMIT 1[0m
+Rendering template within layouts/rocket
+Rendering users/new
+Rendered users/_form (0.5ms)
+Completed in 13ms (View: 5, DB: 0) | 200 OK [http://0.0.0.0/users/new]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-09-04 14:45:04) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>"[FILTERED]", "password"=>"[FILTERED]", "email"=>"stacie@alum.calberkeley.org"}, "commit"=>"Sign up", "action"=>"create", "authenticity_token"=>"l5SBi7UmsesH+ZWF8kuX/jbyhtTDGcZosv/Z7bDweCs=", "controller"=>"users"}
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 7) LIMIT 1[0m
+  [4;35;1mUser Exists (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'stacie@alum.calberkeley.org') LIMIT 1[0m
+  [4;36;1mUser Create (0.5ms)[0m   [0;1mINSERT INTO "users" ("encrypted_password", "salt", "updated_at", "token", "username", "token_expires_at", "tw_auth", "fb_auth", "atoken", "asecret", "password", "email", "created_at", "email_confirmed") VALUES('8b5b2a941a11c6817337c4b4430f883f4fb86f46', 'c1fece57f9c3a46e5160e259582d915676135bdf', '2009-09-04 21:45:04', '58614dec4f930e60ea2848b75241f39f6d123eea', NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'stacie@alum.calberkeley.org', '2009-09-04 21:45:04', 'f')[0m
+Sent mail to stacie@alum.calberkeley.org
+
+From: donotreply@example.com
+To: stacie@alum.calberkeley.org
+Subject: Account confirmation
+Mime-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+
+http://twitterapp.local/users/8/confirmation/new?token=58614dec4f930e60ea2848b75241f39f6d123eea
+Redirected to http://0.0.0.0:3000/session/new
+Completed in 35ms (DB: 1) | 302 Found [http://0.0.0.0/users]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-09-04 14:45:04) [GET]
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Rendering template within layouts/rocket
+Rendering sessions/new
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://0.0.0.0/session/new]
+
+
+Processing ConfirmationsController#new (for 127.0.0.1 at 2009-09-04 14:45:28) [GET]
+  Parameters: {"token"=>"[FILTERED]", "action"=>"new", "controller"=>"confirmations", "user_id"=>"8"}
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = '8') LIMIT 1[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."token" = '58614dec4f930e60ea2848b75241f39f6d123eea' AND "users"."id" = '8') LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."token" = '58614dec4f930e60ea2848b75241f39f6d123eea' AND "users"."id" = '8') LIMIT 1[0m
+  [4;36;1mUser Update (0.5ms)[0m   [0;1mUPDATE "users" SET "email_confirmed" = 't', "token" = NULL, "updated_at" = '2009-09-04 21:45:28' WHERE "id" = 8[0m
+Redirected to http://0.0.0.0:3000/
+Completed in 16ms (DB: 1) | 302 Found [http://0.0.0.0/users/8/confirmation/new?token=58614dec4f930e60ea2848b75241f39f6d123eea]
+
+
+Processing StatusesController#index (for 127.0.0.1 at 2009-09-04 14:45:28) [GET]
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 8) LIMIT 1[0m
+Redirected to http://0.0.0.0:3000/authorization/new
+
+
+Processing AuthorizationsController#new (for 127.0.0.1 at 2009-09-04 14:45:28) [GET]
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 8) LIMIT 1[0m
+Redirected to http://twitter.com/oauth/authorize?oauth_token=tcjzPqqgsqnXQy3Iq3QsS6y14HqpiUg5Rhqa68skaI
+Completed in 808ms (DB: 0) | 302 Found [http://0.0.0.0/authorization/new]
+
+
+Processing StatusesController#index (for 127.0.0.1 at 2009-09-04 14:45:59) [GET]
+  Parameters: {"oauth_token"=>"tcjzPqqgsqnXQy3Iq3QsS6y14HqpiUg5Rhqa68skaI"}
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 8) LIMIT 1[0m
+Redirected to http://0.0.0.0:3000/authorization/new
+
+
+Processing AuthorizationsController#new (for 127.0.0.1 at 2009-09-04 14:46:00) [GET]
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 8) LIMIT 1[0m
+Redirected to http://twitter.com/oauth/authorize?oauth_token=5oVWTxjbYg25dui8UxpMBelHgZuxbIeALdXsxfFO7s
+Completed in 157ms (DB: 0) | 302 Found [http://0.0.0.0/authorization/new]
+
+
+Processing StatusesController#index (for 127.0.0.1 at 2009-09-04 14:59:19) [GET]
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 8) LIMIT 1[0m
+Redirected to http://0.0.0.0:3000/authorization/new
+
+
+Processing AuthorizationsController#new (for 127.0.0.1 at 2009-09-04 14:59:19) [GET]
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 8) LIMIT 1[0m
+Redirected to http://twitter.com/oauth/authorize?oauth_token=nC3hFyZiNj4UOZcm3SgYA4EpDT8IsXE6GEdbbXNUos
+Completed in 71ms (DB: 0) | 302 Found [http://0.0.0.0/authorization/new]
+
+
+Processing StatusesController#index (for 127.0.0.1 at 2009-09-04 15:00:19) [GET]
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 8) LIMIT 1[0m
+Rendering template within layouts/statuses
+Rendering /sessions/new (unauthorized)
+Filter chain halted as [:authenticate] rendered_or_redirected.
+Completed in 15ms (View: 9, DB: 0) | 401 Unauthorized [http://0.0.0.0/]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-09-04 15:00:23) [GET]
+  Parameters: {"action"=>"new", "controller"=>"users"}
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 8) LIMIT 1[0m
+Rendering template within layouts/rocket
+Rendering users/new
+Rendered users/_form (1.2ms)
+Completed in 24ms (View: 16, DB: 0) | 200 OK [http://0.0.0.0/users/new]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-09-04 15:00:32) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>"[FILTERED]", "password"=>"[FILTERED]", "email"=>"stacie@alum.calberkeley.org"}, "commit"=>"Sign up", "action"=>"create", "authenticity_token"=>"l5SBi7UmsesH+ZWF8kuX/jbyhtTDGcZosv/Z7bDweCs=", "controller"=>"users"}
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 8) LIMIT 1[0m
+  [4;35;1mUser Exists (0.2ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'stacie@alum.calberkeley.org') LIMIT 1[0m
+  [4;36;1mUser Create (0.4ms)[0m   [0;1mINSERT INTO "users" ("encrypted_password", "salt", "updated_at", "token", "username", "token_expires_at", "tw_auth", "fb_auth", "atoken", "asecret", "password", "email", "created_at", "email_confirmed") VALUES('9a90e0d87b5fae6cf1083063c01f75b0f8a41322', '13614282aa0c5b29754dbcca37cfcc16ddb4f49f', '2009-09-04 22:00:32', '329e321a9791de4a045b6d3d1f0ca836e2220d60', NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'stacie@alum.calberkeley.org', '2009-09-04 22:00:32', 'f')[0m
+Sent mail to stacie@alum.calberkeley.org
+
+From: donotreply@example.com
+To: stacie@alum.calberkeley.org
+Subject: Account confirmation
+Mime-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+
+http://twitterapp.local/users/9/confirmation/new?token=329e321a9791de4a045b6d3d1f0ca836e2220d60
+Redirected to http://0.0.0.0:3000/session/new
+Completed in 155ms (DB: 1) | 302 Found [http://0.0.0.0/users]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-09-04 15:00:33) [GET]
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Rendering template within layouts/rocket
+Rendering sessions/new
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://0.0.0.0/session/new]
+
+
+Processing ConfirmationsController#new (for 127.0.0.1 at 2009-09-04 15:00:59) [GET]
+  Parameters: {"token"=>"[FILTERED]", "action"=>"new", "controller"=>"confirmations", "user_id"=>"9"}
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = '9') LIMIT 1[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."token" = '329e321a9791de4a045b6d3d1f0ca836e2220d60' AND "users"."id" = '9') LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."token" = '329e321a9791de4a045b6d3d1f0ca836e2220d60' AND "users"."id" = '9') LIMIT 1[0m
+  [4;36;1mUser Update (0.5ms)[0m   [0;1mUPDATE "users" SET "email_confirmed" = 't', "token" = NULL, "updated_at" = '2009-09-04 22:00:59' WHERE "id" = 9[0m
+Redirected to http://0.0.0.0:3000/
+Completed in 15ms (DB: 1) | 302 Found [http://0.0.0.0/users/9/confirmation/new?token=329e321a9791de4a045b6d3d1f0ca836e2220d60]
+
+
+Processing StatusesController#index (for 127.0.0.1 at 2009-09-04 15:00:59) [GET]
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+Redirected to http://0.0.0.0:3000/authorization/new
+
+
+Processing AuthorizationsController#new (for 127.0.0.1 at 2009-09-04 15:01:00) [GET]
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+Redirected to http://twitter.com/oauth/authorize?oauth_token=KFwsD5SFR2HkWVZDZimCNE4A9fYAqQTFU7RMdw8dqPw
+Completed in 86ms (DB: 0) | 302 Found [http://0.0.0.0/authorization/new]
+
+
+Processing AuthorizationsController#show (for 127.0.0.1 at 2009-09-04 15:01:32) [GET]
+  Parameters: {"oauth_token"=>"KFwsD5SFR2HkWVZDZimCNE4A9fYAqQTFU7RMdw8dqPw"}
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+  [4;36;1mUser Exists (0.2ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'stacie@alum.calberkeley.org' AND "users".id <> 9) LIMIT 1[0m
+Redirected to http://0.0.0.0:3000/
+Completed in 260ms (DB: 1) | 302 Found [http://0.0.0.0/authorization?oauth_token=KFwsD5SFR2HkWVZDZimCNE4A9fYAqQTFU7RMdw8dqPw]
+
+
+Processing StatusesController#index (for 127.0.0.1 at 2009-09-04 15:01:33) [GET]
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+Redirected to http://0.0.0.0:3000/authorization/new
+
+
+Processing AuthorizationsController#new (for 127.0.0.1 at 2009-09-04 15:01:33) [GET]
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+Redirected to http://twitter.com/oauth/authorize?oauth_token=PODaCurlQe0gDvGbUvgYBnQdXq72bszLxVLv6wf3A
+Completed in 205ms (DB: 0) | 302 Found [http://0.0.0.0/authorization/new]
+
+
+Processing AuthorizationsController#show (for 127.0.0.1 at 2009-09-04 15:04:49) [GET]
+  Parameters: {"oauth_token"=>"KFwsD5SFR2HkWVZDZimCNE4A9fYAqQTFU7RMdw8dqPw"}
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+NoMethodError (undefined method `validates_prescence_of' for #<Class:0x22e3374>):
+  vendor/gems/mislav-will_paginate-2.3.8/lib/will_paginate/finder.rb:170:in `method_missing'
+  app/models/user.rb:7
+  vendor/gems/thoughtbot-clearance-0.5.3/lib/clearance/app/controllers/application_controller.rb:34:in `user_from_session'
+  vendor/gems/thoughtbot-clearance-0.5.3/lib/clearance/app/controllers/application_controller.rb:19:in `current_user'
+  app/controllers/authorizations_controller.rb:10:in `show'
+
+Rendered rescues/_trace (35.8ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing AuthorizationsController#show (for 127.0.0.1 at 2009-09-04 15:05:32) [GET]
+  Parameters: {"oauth_token"=>"KFwsD5SFR2HkWVZDZimCNE4A9fYAqQTFU7RMdw8dqPw"}
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+
+OAuth::Unauthorized (401 Unauthorized):
+  oauth (0.3.2) lib/oauth/consumer.rb:166:in `token_request'
+  oauth (0.3.2) lib/oauth/tokens/request_token.rb:14:in `get_access_token'
+  twitter (0.6.6) [v] lib/twitter/oauth.rb:22:in `authorize_from_request'
+  app/controllers/authorizations_controller.rb:11:in `show'
+
+Rendered rescues/_trace (25.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing AuthorizationsController#show (for 127.0.0.1 at 2009-09-04 15:06:19) [GET]
+  Parameters: {"oauth_token"=>"KFwsD5SFR2HkWVZDZimCNE4A9fYAqQTFU7RMdw8dqPw"}
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+
+OAuth::Unauthorized (401 Unauthorized):
+  oauth (0.3.2) lib/oauth/consumer.rb:166:in `token_request'
+  oauth (0.3.2) lib/oauth/tokens/request_token.rb:14:in `get_access_token'
+  twitter (0.6.6) [v] lib/twitter/oauth.rb:22:in `authorize_from_request'
+  app/controllers/authorizations_controller.rb:11:in `show'
+
+Rendered rescues/_trace (27.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StatusesController#index (for 127.0.0.1 at 2009-09-04 15:06:26) [GET]
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+Redirected to http://0.0.0.0:3000/authorization/new
+
+
+Processing AuthorizationsController#new (for 127.0.0.1 at 2009-09-04 15:06:26) [GET]
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+Redirected to http://twitter.com/oauth/authorize?oauth_token=gKv31pwq71dZWSBvMMNqcGWwYhdNzWNuB2tr0IY
+Completed in 130ms (DB: 0) | 302 Found [http://0.0.0.0/authorization/new]
+
+
+Processing AuthorizationsController#show (for 127.0.0.1 at 2009-09-04 15:06:56) [GET]
+  Parameters: {"oauth_token"=>"gKv31pwq71dZWSBvMMNqcGWwYhdNzWNuB2tr0IY"}
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+  [4;35;1mUser Exists (0.3ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'stacie@alum.calberkeley.org' AND "users".id <> 9) LIMIT 1[0m
+  [4;36;1mUser Update (0.7ms)[0m   [0;1mUPDATE "users" SET "atoken" = '33159656-FwcdkSnMzJJAG7saIEqKzaHQzEVNDIZWTDO1Ebc6I', "asecret" = 'ngHsilVekDpw7a7qRkT1VmvDfqE1xuQL2urv3MYZ1U', "updated_at" = '2009-09-04 22:06:56' WHERE "id" = 9[0m
+Redirected to http://0.0.0.0:3000/
+Completed in 279ms (DB: 1) | 302 Found [http://0.0.0.0/authorization?oauth_token=gKv31pwq71dZWSBvMMNqcGWwYhdNzWNuB2tr0IY]
+
+
+Processing StatusesController#index (for 127.0.0.1 at 2009-09-04 15:06:56) [GET]
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+Rendering template within layouts/statuses
+Rendering statuses/index
+Rendered statuses/_status (4.0ms)
+Rendered statuses/_status (1.1ms)
+Rendered statuses/_status (1.1ms)
+Rendered statuses/_status (1.2ms)
+Rendered statuses/_status (1.3ms)
+Rendered statuses/_status (1.7ms)
+Rendered statuses/_status (1.2ms)
+Rendered statuses/_status (1.1ms)
+Rendered statuses/_status (1.2ms)
+Rendered statuses/_status (4.0ms)
+Rendered statuses/_status (1.2ms)
+Rendered statuses/_status (1.1ms)
+Rendered statuses/_status (1.2ms)
+Rendered statuses/_status (1.1ms)
+Rendered statuses/_status (1.1ms)
+Rendered statuses/_status (1.2ms)
+Rendered statuses/_status (1.2ms)
+Rendered statuses/_status (1.1ms)
+Rendered statuses/_status (1.1ms)
+Rendered statuses/_pagination (1.2ms)
+Completed in 892ms (View: 41, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-09-04 15:06:57) [GET]
+
+ActionController::RoutingError (No route matches "/images/star.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-09-04 15:06:57) [GET]
+
+ActionController::RoutingError (No route matches "/images/mail.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-09-04 15:06:57) [GET]
+
+ActionController::RoutingError (No route matches "/images/comment.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-09-04 15:08:23) [GET]
+
+ActionController::RoutingError (No route matches "/rocket" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing StatusesController#index (for 127.0.0.1 at 2009-09-04 15:08:28) [GET]
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+Rendering template within layouts/statuses
+Rendering statuses/index
+Rendered statuses/_status (1.3ms)
+Rendered statuses/_status (1.1ms)
+Rendered statuses/_status (1.1ms)
+Rendered statuses/_status (1.1ms)
+Rendered statuses/_status (1.1ms)
+Rendered statuses/_status (1.1ms)
+Rendered statuses/_status (1.2ms)
+Rendered statuses/_status (1.1ms)
+Rendered statuses/_status (1.1ms)
+Rendered statuses/_status (1.3ms)
+Rendered statuses/_status (1.2ms)
+Rendered statuses/_status (1.2ms)
+Rendered statuses/_status (1.2ms)
+Rendered statuses/_status (1.2ms)
+Rendered statuses/_status (1.2ms)
+Rendered statuses/_status (1.1ms)
+Rendered statuses/_status (1.1ms)
+Rendered statuses/_status (1.1ms)
+Rendered statuses/_status (1.1ms)
+Rendered statuses/_pagination (0.2ms)
+Completed in 353ms (View: 25, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-09-04 15:08:28) [GET]
+
+ActionController::RoutingError (No route matches "/images/star.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-09-04 15:08:28) [GET]
+
+ActionController::RoutingError (No route matches "/images/mail.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-09-04 15:08:29) [GET]
+
+ActionController::RoutingError (No route matches "/images/comment.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SessionsController#show (for 127.0.0.1 at 2009-09-04 15:09:26) [GET]
+  Parameters: {"action"=>"show", "controller"=>"sessions"}
+
+ActionController::UnknownAction (No action responded to show. Actions: create and destroy):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-09-04 15:09:37) [GET]
+
+ActionController::RoutingError (No route matches "/session/destroy" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing StatusesController#index (for 127.0.0.1 at 2009-09-04 15:09:43) [GET]
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+Rendering template within layouts/statuses
+Rendering statuses/index
+Rendered statuses/_status (1.3ms)
+Rendered statuses/_status (1.1ms)
+Rendered statuses/_status (1.2ms)
+Rendered statuses/_status (1.3ms)
+Rendered statuses/_status (1.8ms)
+Rendered statuses/_status (1.1ms)
+Rendered statuses/_status (1.2ms)
+Rendered statuses/_status (1.2ms)
+Rendered statuses/_status (1.1ms)
+Rendered statuses/_status (1.2ms)
+Rendered statuses/_status (1.1ms)
+Rendered statuses/_status (1.1ms)
+Rendered statuses/_status (1.1ms)
+Rendered statuses/_status (1.2ms)
+Rendered statuses/_status (1.1ms)
+Rendered statuses/_status (1.1ms)
+Rendered statuses/_status (1.1ms)
+Rendered statuses/_status (1.1ms)
+Rendered statuses/_status (1.1ms)
+Rendered statuses/_pagination (0.2ms)
+Completed in 404ms (View: 26, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-09-04 15:09:43) [GET]
+
+ActionController::RoutingError (No route matches "/images/star.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-09-04 15:09:43) [GET]
+
+ActionController::RoutingError (No route matches "/images/mail.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-09-04 15:09:43) [GET]
+
+ActionController::RoutingError (No route matches "/images/comment.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-09-04 15:09:47) [GET]
+
+ActionController::RoutingError (No route matches "/index" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-09-04 15:09:54) [GET]
+  Parameters: {"action"=>"show", "id"=>"8", "controller"=>"users"}
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+Rendering template within layouts/rocket
+Rendering users/show
+Completed in 425ms (View: 8, DB: 0) | 200 OK [http://0.0.0.0/users/8]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-09-04 15:10:06) [GET]
+  Parameters: {"action"=>"show", "id"=>"7", "controller"=>"users"}
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+Rendering template within layouts/rocket
+Rendering users/show
+Completed in 369ms (View: 4, DB: 0) | 200 OK [http://0.0.0.0/users/7]
+
+
+Processing SessionsController#destroy (for 127.0.0.1 at 2009-09-04 15:10:13) [DELETE]
+  Parameters: {"action"=>"destroy", "_method"=>"delete", "authenticity_token"=>"l5SBi7UmsesH+ZWF8kuX/jbyhtTDGcZosv/Z7bDweCs=", "controller"=>"sessions"}
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+Redirected to http://0.0.0.0:3000/session/new
+Completed in 70ms (DB: 0) | 302 Found [http://0.0.0.0/session]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-09-04 15:10:13) [GET]
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Rendering template within layouts/rocket
+Rendering sessions/new
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/session/new]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2009-09-04 15:10:41) [POST]
+  Parameters: {"commit"=>"Sign in", "action"=>"create", "authenticity_token"=>"B7yiOhVBye8oQvK2K6vpn36XQw0MDuRBL4Y0eW+83sI=", "session"=>{"password"=>"[FILTERED]", "remember_me"=>"0", "email"=>"stacie@alum.calberkeley.org"}, "controller"=>"sessions"}
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."email" = 'stacie@alum.calberkeley.org') LIMIT 1[0m
+Redirected to http://0.0.0.0:3000/
+Completed in 10ms (DB: 0) | 302 Found [http://0.0.0.0/session]
+
+
+Processing StatusesController#index (for 127.0.0.1 at 2009-09-04 15:10:41) [GET]
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+Rendering template within layouts/rocket
+Rendering statuses/index
+Rendered statuses/_status (5.6ms)
+Rendered statuses/_status (5.5ms)
+Rendered statuses/_status (3.0ms)
+Rendered statuses/_status (1.2ms)
+Rendered statuses/_status (1.2ms)
+Rendered statuses/_status (1.3ms)
+Rendered statuses/_status (1.2ms)
+Rendered statuses/_status (1.2ms)
+Rendered statuses/_status (1.3ms)
+Rendered statuses/_status (1.4ms)
+Rendered statuses/_status (1.4ms)
+Rendered statuses/_status (1.5ms)
+Rendered statuses/_status (1.2ms)
+Rendered statuses/_status (1.5ms)
+Rendered statuses/_status (1.2ms)
+Rendered statuses/_status (1.2ms)
+Rendered statuses/_status (1.2ms)
+Rendered statuses/_status (1.2ms)
+Rendered statuses/_status (1.9ms)
+Rendered statuses/_pagination (0.2ms)
+Completed in 579ms (View: 43, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-09-04 15:10:42) [GET]
+
+ActionController::RoutingError (No route matches "/images/star.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-09-04 15:10:42) [GET]
+
+ActionController::RoutingError (No route matches "/images/mail.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-09-04 15:10:42) [GET]
+
+ActionController::RoutingError (No route matches "/images/comment.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing StatusesController#index (for 127.0.0.1 at 2009-09-04 15:13:11) [GET]
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+Rendering template within layouts/rocket
+Rendering statuses/index
+Rendered statuses/_status (1.4ms)
+Rendered statuses/_status (1.2ms)
+Rendered statuses/_status (1.3ms)
+Rendered statuses/_status (1.2ms)
+Rendered statuses/_status (1.1ms)
+Rendered statuses/_status (1.1ms)
+Rendered statuses/_status (1.2ms)
+Rendered statuses/_status (1.1ms)
+Rendered statuses/_status (1.1ms)
+Rendered statuses/_status (1.3ms)
+Rendered statuses/_status (1.2ms)
+Rendered statuses/_status (1.1ms)
+Rendered statuses/_status (1.2ms)
+Rendered statuses/_status (1.1ms)
+Rendered statuses/_status (1.1ms)
+Rendered statuses/_status (1.2ms)
+Rendered statuses/_status (1.1ms)
+Rendered statuses/_status (1.1ms)
+Rendered statuses/_status (1.1ms)
+Rendered statuses/_pagination (0.2ms)
+ERROR: compiling _run_erb_app47views47layouts47rocket46html46erb RAISED compile error
+/Users/sfrederick/ruby_on_rails/rocket/app/views/layouts/rocket.html.erb:7: syntax error, unexpected ':', expecting ')'
+@output_buffer.concat "  "; @output_buffer.concat(( stylesheet_link_tag 'rocket', 'common' :media => "all").to_s); @output_buffer.concat "\n"
+                                                                                            ^
+Function body:           def _run_erb_app47views47layouts47rocket46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"\n"
+@output_buffer.concat "       \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "<html>\n"
+@output_buffer.concat "<head>\n"
+@output_buffer.concat "  <title>To Rocket</title>\n"
+@output_buffer.concat "  "; @output_buffer.concat(( stylesheet_link_tag 'rocket', 'common' :media => "all").to_s); @output_buffer.concat "\n"
+@output_buffer.concat "  "; @output_buffer.concat(( javascript_include_tag :defaults ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "</head>\n"
+@output_buffer.concat "<body id=\"application\">\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "  <div id=\"banner\">\n"
+@output_buffer.concat "    "; @output_buffer.concat(( image_tag("rocket.png", :size => "30x30") ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "     ...\n"
+@output_buffer.concat "  </div>\n"
+@output_buffer.concat "  <div id=\"columns\">\n"
+@output_buffer.concat "    <div id=\"side\">\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "      <br />\n"
+@output_buffer.concat "      <a href=\"http://www....\">Home</a><br />\n"
+@output_buffer.concat "      <a href=\"http://www..../faq\">Questions </a><br />\n"
+@output_buffer.concat "      <a href=\"http://www..../news\">News</a><br />\n"
+@output_buffer.concat "      <a href=\"http://www..../contact\">Contact</a><br />\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "      ";  if session[:user_id] ; @output_buffer.concat "\n"
+@output_buffer.concat "        <br />\n"
+@output_buffer.concat "        "; @output_buffer.concat(( link_to 'Status', :controller => 'statuses' ).to_s); @output_buffer.concat "<br />\n"
+@output_buffer.concat "        <! %= link_to 'Friends', :controller => 'friends' % !><br />\n"
+@output_buffer.concat "        "; @output_buffer.concat(( link_to 'Admin', :controller => 'users' ).to_s); @output_buffer.concat "<br />\n"
+@output_buffer.concat "        "; @output_buffer.concat(( link_to 'My Info', :controller => 'users', :id => session[:user_id], :action => 'edit' ).to_s); @output_buffer.concat "<br />\n"
+@output_buffer.concat "        <br />\n"
+@output_buffer.concat "        <! %= link_to 'Logout', :action => 'logout'  %>\n"
+@output_buffer.concat "        "; @output_buffer.concat(( link_to 'Logout', session_url, :method => :delete ).to_s); @output_buffer.concat "<br />\n"
+@output_buffer.concat "      ";  end ; @output_buffer.concat "\n"
+@output_buffer.concat "    </div>\n"
+@output_buffer.concat "    <div id=\"main\">\n"
+@output_buffer.concat "      ";  if flash[:notice] 
+@output_buffer.concat "        <div id=\"notice\">"; @output_buffer.concat(( flash[:notice] ).to_s); @output_buffer.concat "</div>\n"
+@output_buffer.concat "      ";  end 
+@output_buffer.concat "\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "      "; @output_buffer.concat(( yield :layout ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "    </div>\n"
+@output_buffer.concat "  </div>\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "</body>\n"
+@output_buffer.concat "</html>\n"
+@output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/sfrederick/ruby_on_rails/rocket/app/views/layouts/rocket.html.erb:51:in `compile!'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_view/renderable.rb:61:in `compile'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_view/renderable.rb:28:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_view/template.rb:194:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_view/base.rb:260:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_view/base.rb:347:in `_render_with_layout'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_view/base.rb:257:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1241:in `render_for_file'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:937:in `render_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:51:in `render'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:51:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1317:in `default_render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1323:in `perform_action_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:617:in `call_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/flash.rb:141:in `perform_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:523:in `send'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:523:in `process_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:606:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:391:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:386:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/routing/route_set.rb:433:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:88:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:111:in `_call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:82:in `initialize'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:9:in `cache'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:28:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/params_parser.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rewindable_input.rb:25:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/session/cookie_store.rb:93:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/reloader.rb:9:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/failsafe.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:106:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.2/lib/rails/rack/static.rb:31:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.2/lib/rails/rack/log_tailer.rb:17:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/chunked.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:61:in `process'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:34:in `run'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.2/lib/commands/server.rb:111
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/Users/sfrederick/ruby_on_rails/rocket/app/views/layouts/rocket.html.erb:7: syntax error, unexpected ':', expecting ')'
+@output_buffer.concat "  "; @output_buffer.concat(( stylesheet_link_tag 'rocket', 'common' :media => "all").to_s); @output_buffer.concat "\n"
+                                                                                            ^) on line #7 of app/views/layouts/rocket.html.erb:
+4: <html>
+5: <head>
+6:   <title>To Rocket</title>
+7:   <%= stylesheet_link_tag 'rocket', 'common' :media => "all"%>
+8:   <%= javascript_include_tag :defaults %>
+9: </head>
+10: <body id="application">
+
+    app/views/layouts/rocket.html.erb:51:in `compile!'
+
+Rendered rescues/_trace (89.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StatusesController#index (for 127.0.0.1 at 2009-09-04 15:13:25) [GET]
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+Rendering template within layouts/rocket
+Rendering statuses/index
+Rendered statuses/_status (1.5ms)
+Rendered statuses/_status (1.2ms)
+Rendered statuses/_status (1.2ms)
+Rendered statuses/_status (1.2ms)
+Rendered statuses/_status (1.1ms)
+Rendered statuses/_status (1.3ms)
+Rendered statuses/_status (1.4ms)
+Rendered statuses/_status (1.1ms)
+Rendered statuses/_status (1.1ms)
+Rendered statuses/_status (1.3ms)
+Rendered statuses/_status (1.2ms)
+Rendered statuses/_status (1.1ms)
+Rendered statuses/_status (1.3ms)
+Rendered statuses/_status (1.1ms)
+Rendered statuses/_status (1.1ms)
+Rendered statuses/_status (1.1ms)
+Rendered statuses/_status (1.1ms)
+Rendered statuses/_status (1.1ms)
+Rendered statuses/_status (1.4ms)
+Rendered statuses/_pagination (0.2ms)
+ERROR: compiling _run_erb_app47views47layouts47rocket46html46erb RAISED compile error
+/Users/sfrederick/ruby_on_rails/rocket/app/views/layouts/rocket.html.erb:7: syntax error, unexpected ':', expecting ')'
+@output_buffer.concat "  "; @output_buffer.concat(( stylesheet_link_tag 'rocket', 'common' :media => "all").to_s); @output_buffer.concat "\n"
+                                                                                            ^
+Function body:           def _run_erb_app47views47layouts47rocket46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"\n"
+@output_buffer.concat "       \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "<html>\n"
+@output_buffer.concat "<head>\n"
+@output_buffer.concat "  <title>To Rocket</title>\n"
+@output_buffer.concat "  "; @output_buffer.concat(( stylesheet_link_tag 'rocket', 'common' :media => "all").to_s); @output_buffer.concat "\n"
+@output_buffer.concat "  "; @output_buffer.concat(( javascript_include_tag :defaults ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "</head>\n"
+@output_buffer.concat "<body id=\"application\">\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "  <div id=\"banner\">\n"
+@output_buffer.concat "    "; @output_buffer.concat(( image_tag("rocket.png", :size => "30x30") ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "     ...\n"
+@output_buffer.concat "  </div>\n"
+@output_buffer.concat "  <div id=\"columns\">\n"
+@output_buffer.concat "    <div id=\"side\">\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "      <br />\n"
+@output_buffer.concat "      <a href=\"http://www....\">Home</a><br />\n"
+@output_buffer.concat "      <a href=\"http://www..../faq\">Questions </a><br />\n"
+@output_buffer.concat "      <a href=\"http://www..../news\">News</a><br />\n"
+@output_buffer.concat "      <a href=\"http://www..../contact\">Contact</a><br />\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "      ";  if session[:user_id] ; @output_buffer.concat "\n"
+@output_buffer.concat "        <br />\n"
+@output_buffer.concat "        "; @output_buffer.concat(( link_to 'Status', :controller => 'statuses' ).to_s); @output_buffer.concat "<br />\n"
+@output_buffer.concat "        <! %= link_to 'Friends', :controller => 'friends' %><br />\n"
+@output_buffer.concat "        "; @output_buffer.concat(( link_to 'Admin', :controller => 'users' ).to_s); @output_buffer.concat "<br />\n"
+@output_buffer.concat "        "; @output_buffer.concat(( link_to 'My Info', :controller => 'users', :id => session[:user_id], :action => 'edit' ).to_s); @output_buffer.concat "<br />\n"
+@output_buffer.concat "        <br />\n"
+@output_buffer.concat "        <! %= link_to 'Logout', :action => 'logout'  %>\n"
+@output_buffer.concat "        "; @output_buffer.concat(( link_to 'Logout', session_url, :method => :delete ).to_s); @output_buffer.concat "<br />\n"
+@output_buffer.concat "      ";  end ; @output_buffer.concat "\n"
+@output_buffer.concat "    </div>\n"
+@output_buffer.concat "    <div id=\"main\">\n"
+@output_buffer.concat "      ";  if flash[:notice] 
+@output_buffer.concat "        <div id=\"notice\">"; @output_buffer.concat(( flash[:notice] ).to_s); @output_buffer.concat "</div>\n"
+@output_buffer.concat "      ";  end 
+@output_buffer.concat "\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "      "; @output_buffer.concat(( yield :layout ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "    </div>\n"
+@output_buffer.concat "  </div>\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "</body>\n"
+@output_buffer.concat "</html>\n"
+@output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/sfrederick/ruby_on_rails/rocket/app/views/layouts/rocket.html.erb:51:in `compile!'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_view/renderable.rb:61:in `compile'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_view/renderable.rb:28:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_view/template.rb:194:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_view/base.rb:260:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_view/base.rb:347:in `_render_with_layout'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_view/base.rb:257:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1241:in `render_for_file'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:937:in `render_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:51:in `render'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:51:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1317:in `default_render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1323:in `perform_action_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:617:in `call_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/flash.rb:141:in `perform_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:523:in `send'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:523:in `process_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:606:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:391:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:386:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/routing/route_set.rb:433:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:88:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:111:in `_call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:82:in `initialize'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:9:in `cache'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:28:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/params_parser.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rewindable_input.rb:25:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/session/cookie_store.rb:93:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/reloader.rb:9:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/failsafe.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:106:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.2/lib/rails/rack/static.rb:31:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.2/lib/rails/rack/log_tailer.rb:17:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/chunked.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:61:in `process'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:34:in `run'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.2/lib/commands/server.rb:111
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/Users/sfrederick/ruby_on_rails/rocket/app/views/layouts/rocket.html.erb:7: syntax error, unexpected ':', expecting ')'
+@output_buffer.concat "  "; @output_buffer.concat(( stylesheet_link_tag 'rocket', 'common' :media => "all").to_s); @output_buffer.concat "\n"
+                                                                                            ^) on line #7 of app/views/layouts/rocket.html.erb:
+4: <html>
+5: <head>
+6:   <title>To Rocket</title>
+7:   <%= stylesheet_link_tag 'rocket', 'common' :media => "all"%>
+8:   <%= javascript_include_tag :defaults %>
+9: </head>
+10: <body id="application">
+
+    app/views/layouts/rocket.html.erb:51:in `compile!'
+
+Rendered rescues/_trace (98.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StatusesController#index (for 127.0.0.1 at 2009-09-04 15:20:54) [GET]
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+Rendering template within layouts/rocket
+Rendering statuses/index
+Rendered statuses/_status (1.4ms)
+Rendered statuses/_status (1.1ms)
+Rendered statuses/_status (1.2ms)
+Rendered statuses/_status (1.4ms)
+Rendered statuses/_status (1.1ms)
+Rendered statuses/_status (1.1ms)
+Rendered statuses/_status (1.2ms)
+Rendered statuses/_status (1.2ms)
+Rendered statuses/_status (1.2ms)
+Rendered statuses/_status (1.2ms)
+Rendered statuses/_status (1.1ms)
+Rendered statuses/_status (1.1ms)
+Rendered statuses/_status (1.2ms)
+Rendered statuses/_status (1.1ms)
+Rendered statuses/_status (1.1ms)
+Rendered statuses/_status (1.1ms)
+Rendered statuses/_status (1.1ms)
+Rendered statuses/_status (1.1ms)
+Rendered statuses/_status (1.2ms)
+Rendered statuses/_pagination (0.2ms)
+Completed in 542ms (View: 30, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-09-04 15:20:55) [GET]
+
+ActionController::RoutingError (No route matches "/images/star.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-09-04 15:20:55) [GET]
+
+ActionController::RoutingError (No route matches "/images/mail.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-09-04 15:20:55) [GET]
+
+ActionController::RoutingError (No route matches "/images/comment.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-09-04 15:20:55) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/bg_rounded.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing StatusesController#index (for 127.0.0.1 at 2009-09-04 15:23:05) [GET]
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+Rendering template within layouts/rocket
+Rendering statuses/index
+Rendered statuses/_status (1.5ms)
+Rendered statuses/_status (1.2ms)
+Rendered statuses/_status (1.2ms)
+Rendered statuses/_status (1.2ms)
+Rendered statuses/_status (1.2ms)
+Rendered statuses/_status (1.2ms)
+Rendered statuses/_status (1.2ms)
+Rendered statuses/_status (1.1ms)
+Rendered statuses/_status (1.2ms)
+Rendered statuses/_status (1.2ms)
+Rendered statuses/_status (1.1ms)
+Rendered statuses/_status (1.1ms)
+Rendered statuses/_status (1.2ms)
+Rendered statuses/_status (1.1ms)
+Rendered statuses/_status (1.1ms)
+Rendered statuses/_status (1.1ms)
+Rendered statuses/_status (1.3ms)
+Rendered statuses/_status (1.2ms)
+Rendered statuses/_status (1.2ms)
+Rendered statuses/_pagination (0.2ms)
+Completed in 526ms (View: 30, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-09-04 15:23:06) [GET]
+
+ActionController::RoutingError (No route matches "/images/star.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-09-04 15:23:06) [GET]
+
+ActionController::RoutingError (No route matches "/images/mail.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-09-04 15:23:06) [GET]
+
+ActionController::RoutingError (No route matches "/images/comment.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-09-04 15:23:06) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/bg_rounded.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing StatusesController#index (for 127.0.0.1 at 2009-09-04 15:23:48) [GET]
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+Rendering template within layouts/rocket
+Rendering statuses/index
+Rendered statuses/_status (1.4ms)
+Rendered statuses/_status (1.2ms)
+Rendered statuses/_status (1.3ms)
+Rendered statuses/_status (1.2ms)
+Rendered statuses/_status (1.1ms)
+Rendered statuses/_status (1.1ms)
+Rendered statuses/_status (1.2ms)
+Rendered statuses/_status (1.1ms)
+Rendered statuses/_status (1.3ms)
+Rendered statuses/_status (1.2ms)
+Rendered statuses/_status (1.2ms)
+Rendered statuses/_status (1.1ms)
+Rendered statuses/_status (1.2ms)
+Rendered statuses/_status (1.2ms)
+Rendered statuses/_status (1.2ms)
+Rendered statuses/_status (1.1ms)
+Rendered statuses/_status (1.1ms)
+Rendered statuses/_status (1.1ms)
+Rendered statuses/_status (1.2ms)
+Rendered statuses/_pagination (0.2ms)
+Completed in 1273ms (View: 26, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-09-04 15:23:49) [GET]
+
+ActionController::RoutingError (No route matches "/images/star.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-09-04 15:23:49) [GET]
+
+ActionController::RoutingError (No route matches "/images/mail.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-09-04 15:23:49) [GET]
+
+ActionController::RoutingError (No route matches "/images/comment.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-09-04 15:23:49) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/bg_rounded.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UsersController#index (for 127.0.0.1 at 2009-09-04 15:23:52) [GET]
+  Parameters: {"action"=>"index", "controller"=>"users"}
+Rendering template within layouts/rocket
+Rendering users/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #12 of app/views/users/index.html.erb:
+9:     <th>Twitter?</th>
+10:   </tr>
+11: 
+12: <% @users.each do |user| %>
+13:   <tr>
+14:     <td><%=h user.username %></td>
+15:     <td><%=h user.password %></td>
+
+    app/views/users/index.html.erb:12
+
+Rendered rescues/_trace (29.2ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#edit (for 127.0.0.1 at 2009-09-04 15:24:03) [GET]
+  Parameters: {"action"=>"edit", "id"=>"9", "controller"=>"users"}
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 9) [0m
+Rendering template within layouts/rocket
+Rendering users/edit
+Completed in 16ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/users/9/edit]
+
+
+Processing UsersController#update (for 127.0.0.1 at 2009-09-04 15:25:33) [PUT]
+  Parameters: {"user"=>{"tw_auth"=>"1", "fb_auth"=>"0", "username"=>"stacie", "password"=>"[FILTERED]", "email"=>"stacie@alum.calberkeley.org"}, "commit"=>"Update", "action"=>"update", "_method"=>"put", "authenticity_token"=>"B7yiOhVBye8oQvK2K6vpn36XQw0MDuRBL4Y0eW+83sI=", "id"=>"9", "controller"=>"users"}
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 9) [0m
+WARNING: Can't mass-assign these protected attributes: tw_auth, fb_auth, username
+  [4;36;1mUser Exists (0.2ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'stacie@alum.calberkeley.org' AND "users".id <> 9) LIMIT 1[0m
+  [4;35;1mUser Exists (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'stacie@alum.calberkeley.org' AND "users".id <> 9) LIMIT 1[0m
+Redirected to http://0.0.0.0:3000/users/9
+Completed in 12ms (DB: 1) | 302 Found [http://0.0.0.0/users/9]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-09-04 15:25:33) [GET]
+  Parameters: {"action"=>"show", "id"=>"9", "controller"=>"users"}
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+Rendering template within layouts/rocket
+Rendering users/show
+Completed in 395ms (View: 4, DB: 0) | 200 OK [http://0.0.0.0/users/9]
+
+
+Processing UsersController#edit (for 127.0.0.1 at 2009-09-04 15:25:38) [GET]
+  Parameters: {"name"=>"9", "profile_sidebar_fill_color"=>"e0ff92", "status"=>{"truncated"=>"false", "favorited"=>"false", "text"=>"Contact Us：playlion#163.com", "id"=>"3191366530", "in_reply_to_user_id"=>"", "in_reply_to_status_id"=>"", "source"=>"<a href=\"http://www.twitzap.com\" rel=\"nofollow\">TwitZap</a>", "in_reply_to_screen_name"=>"", "created_at"=>"Sat Aug 08 09:30:09 +0000 2009"}, "profile_link_color"=>"0000ff", "profile_sidebar_border_color"=>"87bc44", "action"=>"edit", "favourites_count"=>"0", "url"=>"http://www.2i.com.cn", "id"=>"1357561", "controller"=>"users", "description"=>"", "profile_text_color"=>"000000", "utc_offset"=>"-36000", "profile_background_color"=>"9ae4e8", "screen_name"=>"9", "time_zone"=>"Hawaii", "followers_count"=>"99", "friends_count"=>"2", "profile_background_image_url"=>"http://static.twitter.com/images/themes/theme1/bg.gif", "statuses_count"=>"5", "created_at"=>"Sat Mar 17 15:11:56 +0000 2007", "location"=>"", "profile_image_url"=>"http://static.twitter.com/images/default_profile_normal.png"}
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1357561) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find User with ID=1357561):
+  app/controllers/users_controller.rb:52:in `edit'
+
+Rendered rescues/_trace (24.3ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (not_found)
+
+
+Processing UsersController#edit (for 127.0.0.1 at 2009-09-04 15:25:42) [GET]
+  Parameters: {"action"=>"edit", "id"=>"9", "controller"=>"users"}
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 9) [0m
+Rendering template within layouts/rocket
+Rendering users/edit
+Completed in 74ms (View: 68, DB: 0) | 200 OK [http://0.0.0.0/users/9/edit]
+
+
+Processing UsersController#update (for 127.0.0.1 at 2009-09-04 15:30:49) [PUT]
+  Parameters: {"user"=>{"tw_auth"=>"0", "fb_auth"=>"0", "username"=>"stacie", "password"=>"[FILTERED]", "email"=>"stacie@alum.calberkeley.org"}, "commit"=>"Update", "action"=>"update", "_method"=>"put", "authenticity_token"=>"B7yiOhVBye8oQvK2K6vpn36XQw0MDuRBL4Y0eW+83sI=", "id"=>"9", "controller"=>"users"}
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 9) [0m
+WARNING: Can't mass-assign these protected attributes: tw_auth, fb_auth, username
+  [4;36;1mUser Exists (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'stacie@alum.calberkeley.org' AND "users".id <> 9) LIMIT 1[0m
+  [4;35;1mUser Exists (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'stacie@alum.calberkeley.org' AND "users".id <> 9) LIMIT 1[0m
+Redirected to http://0.0.0.0:3000/users/9
+Completed in 11ms (DB: 1) | 302 Found [http://0.0.0.0/users/9]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-09-04 15:30:49) [GET]
+  Parameters: {"action"=>"show", "id"=>"9", "controller"=>"users"}
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+Rendering template within layouts/rocket
+Rendering users/show
+Completed in 379ms (View: 4, DB: 0) | 200 OK [http://0.0.0.0/users/9]
+
+
+Processing UsersController#edit (for 127.0.0.1 at 2009-09-04 15:36:07) [GET]
+  Parameters: {"name"=>"9", "profile_sidebar_fill_color"=>"e0ff92", "status"=>{"truncated"=>"false", "favorited"=>"false", "text"=>"Contact Us：playlion#163.com", "id"=>"3191366530", "in_reply_to_user_id"=>"", "in_reply_to_status_id"=>"", "source"=>"<a href=\"http://www.twitzap.com\" rel=\"nofollow\">TwitZap</a>", "in_reply_to_screen_name"=>"", "created_at"=>"Sat Aug 08 09:30:09 +0000 2009"}, "profile_link_color"=>"0000ff", "profile_sidebar_border_color"=>"87bc44", "action"=>"edit", "favourites_count"=>"0", "url"=>"http://www.2i.com.cn", "id"=>"1357561", "controller"=>"users", "description"=>"", "profile_text_color"=>"000000", "utc_offset"=>"-36000", "profile_background_color"=>"9ae4e8", "screen_name"=>"9", "time_zone"=>"Hawaii", "followers_count"=>"99", "friends_count"=>"2", "profile_background_image_url"=>"http://static.twitter.com/images/themes/theme1/bg.gif", "statuses_count"=>"5", "created_at"=>"Sat Mar 17 15:11:56 +0000 2007", "location"=>"", "profile_image_url"=>"http://static.twitter.com/images/default_profile_normal.png"}
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1357561) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find User with ID=1357561):
+  app/controllers/users_controller.rb:52:in `edit'
+
+Rendered rescues/_trace (24.3ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (not_found)
+
+
+Processing UsersController#index (for 127.0.0.1 at 2009-09-04 15:36:11) [GET]
+  Parameters: {"action"=>"index", "controller"=>"users"}
+Rendering template within layouts/rocket
+Rendering users/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #12 of app/views/users/index.html.erb:
+9:     <th>Twitter?</th>
+10:   </tr>
+11: 
+12: <% @users.each do |user| %>
+13:   <tr>
+14:     <td><%=h user.username %></td>
+15:     <td><%=h user.password %></td>
+
+    app/views/users/index.html.erb:12
+
+Rendered rescues/_trace (32.0ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#edit (for 127.0.0.1 at 2009-09-04 15:36:14) [GET]
+  Parameters: {"action"=>"edit", "id"=>"9", "controller"=>"users"}
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 9) [0m
+Rendering template within layouts/rocket
+Rendering users/edit
+Completed in 11ms (View: 5, DB: 0) | 200 OK [http://0.0.0.0/users/9/edit]
+
+
+Processing UsersController#update (for 127.0.0.1 at 2009-09-04 15:36:26) [PUT]
+  Parameters: {"user"=>{"tw_auth"=>"0", "fb_auth"=>"0", "username"=>"stacie", "password"=>"[FILTERED]", "email"=>"stacie@alum.calberkeley.org"}, "commit"=>"Update", "action"=>"update", "_method"=>"put", "authenticity_token"=>"B7yiOhVBye8oQvK2K6vpn36XQw0MDuRBL4Y0eW+83sI=", "id"=>"9", "controller"=>"users"}
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 9) [0m
+WARNING: Can't mass-assign these protected attributes: tw_auth, fb_auth, username
+  [4;36;1mUser Exists (0.2ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'stacie@alum.calberkeley.org' AND "users".id <> 9) LIMIT 1[0m
+  [4;35;1mUser Exists (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'stacie@alum.calberkeley.org' AND "users".id <> 9) LIMIT 1[0m
+Redirected to http://0.0.0.0:3000/users/9
+Completed in 12ms (DB: 1) | 302 Found [http://0.0.0.0/users/9]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-09-04 15:36:27) [GET]
+  Parameters: {"action"=>"show", "id"=>"9", "controller"=>"users"}
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+Rendering template within layouts/rocket
+Rendering users/show
+Completed in 542ms (View: 5, DB: 0) | 200 OK [http://0.0.0.0/users/9]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-09-04 15:37:22) [GET]
+  Parameters: {"action"=>"show", "id"=>"9", "controller"=>"users"}
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+Rendering template within layouts/rocket
+Rendering users/show
+Completed in 359ms (View: 5, DB: 0) | 200 OK [http://0.0.0.0/users/9]
+
+
+Processing UsersController#edit (for 127.0.0.1 at 2009-09-04 15:37:28) [GET]
+  Parameters: {"action"=>"edit", "id"=>"9", "controller"=>"users"}
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 9) [0m
+Rendering template within layouts/rocket
+Rendering users/edit
+Completed in 122ms (View: 7, DB: 0) | 200 OK [http://0.0.0.0/users/9/edit]
+
+
+Processing UsersController#update (for 127.0.0.1 at 2009-09-04 15:37:33) [PUT]
+  Parameters: {"user"=>{"tw_auth"=>"0", "fb_auth"=>"0", "username"=>"stacie", "password"=>"[FILTERED]", "email"=>"stacie@alum.calberkeley.org"}, "commit"=>"Update", "action"=>"update", "_method"=>"put", "authenticity_token"=>"B7yiOhVBye8oQvK2K6vpn36XQw0MDuRBL4Y0eW+83sI=", "id"=>"9", "controller"=>"users"}
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 9) [0m
+WARNING: Can't mass-assign these protected attributes: tw_auth, fb_auth, username
+  [4;36;1mUser Exists (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'stacie@alum.calberkeley.org' AND "users".id <> 9) LIMIT 1[0m
+  [4;35;1mUser Exists (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'stacie@alum.calberkeley.org' AND "users".id <> 9) LIMIT 1[0m
+Redirected to http://0.0.0.0:3000/users/9
+Completed in 10ms (DB: 0) | 302 Found [http://0.0.0.0/users/9]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-09-04 15:37:33) [GET]
+  Parameters: {"action"=>"show", "id"=>"9", "controller"=>"users"}
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+Rendering template within layouts/rocket
+Rendering users/show
+Completed in 441ms (View: 5, DB: 0) | 200 OK [http://0.0.0.0/users/9]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2009-09-04 15:37:37) [GET]
+  Parameters: {"action"=>"index", "controller"=>"users"}
+Rendering template within layouts/rocket
+Rendering users/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #12 of app/views/users/index.html.erb:
+9:     <th>Twitter?</th>
+10:   </tr>
+11: 
+12: <% @users.each do |user| %>
+13:   <tr>
+14:     <td><%=h user.username %></td>
+15:     <td><%=h user.password %></td>
+
+    app/views/users/index.html.erb:12
+
+Rendered rescues/_trace (29.1ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#edit (for 127.0.0.1 at 2009-09-04 15:37:42) [GET]
+  Parameters: {"action"=>"edit", "id"=>"9", "controller"=>"users"}
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 9) [0m
+Rendering template within layouts/rocket
+Rendering users/edit
+Completed in 11ms (View: 5, DB: 0) | 200 OK [http://0.0.0.0/users/9/edit]
+
+
+Processing UsersController#update (for 127.0.0.1 at 2009-09-04 15:40:27) [PUT]
+  Parameters: {"user"=>{"tw_auth"=>"0", "fb_auth"=>"0", "username"=>"stacie", "password"=>"[FILTERED]", "email"=>"stacie@alum.calberkeley.org"}, "commit"=>"Update", "action"=>"update", "_method"=>"put", "authenticity_token"=>"B7yiOhVBye8oQvK2K6vpn36XQw0MDuRBL4Y0eW+83sI=", "id"=>"9", "controller"=>"users"}
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 9) [0m
+
+NoMethodError (Attempt to call private method):
+  app/controllers/users_controller.rb:76:in `update'
+
+Rendered rescues/_trace (26.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#edit (for 127.0.0.1 at 2009-09-04 15:47:27) [GET]
+  Parameters: {"action"=>"edit", "id"=>"9", "controller"=>"users"}
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 9) [0m
+Rendering template within layouts/rocket
+Rendering users/edit
+Completed in 11ms (View: 5, DB: 0) | 200 OK [http://0.0.0.0/users/9/edit]
+
+
+Processing UsersController#update (for 127.0.0.1 at 2009-09-04 15:47:41) [PUT]
+  Parameters: {"user"=>{"tw_auth"=>"0", "fb_auth"=>"0", "username"=>"stacie", "password"=>"[FILTERED]", "email"=>"stacie@alum.calberkeley.org"}, "commit"=>"Update", "action"=>"update", "_method"=>"put", "authenticity_token"=>"B7yiOhVBye8oQvK2K6vpn36XQw0MDuRBL4Y0eW+83sI=", "id"=>"9", "controller"=>"users"}
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 9) [0m
+WARNING: Can't mass-assign these protected attributes: tw_auth, fb_auth, username
+  [4;35;1mUser Exists (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'stacie@alum.calberkeley.org' AND "users".id <> 9) LIMIT 1[0m
+  [4;36;1mUser Exists (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'stacie@alum.calberkeley.org' AND "users".id <> 9) LIMIT 1[0m
+
+NameError (uninitialized constant UsersController::RecordInvalid):
+  app/controllers/users_controller.rb:83:in `update'
+  app/controllers/users_controller.rb:77:in `update'
+
+Rendered rescues/_trace (24.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#update (for 127.0.0.1 at 2009-09-04 15:50:23) [PUT]
+  Parameters: {"user"=>{"tw_auth"=>"0", "fb_auth"=>"0", "username"=>"stacie", "password"=>"[FILTERED]", "email"=>"stacie@alum.calberkeley.org"}, "commit"=>"Update", "action"=>"update", "_method"=>"put", "authenticity_token"=>"B7yiOhVBye8oQvK2K6vpn36XQw0MDuRBL4Y0eW+83sI=", "id"=>"9", "controller"=>"users"}
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 9) [0m
+WARNING: Can't mass-assign these protected attributes: tw_auth, fb_auth, username
+  [4;36;1mUser Exists (0.2ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'stacie@alum.calberkeley.org' AND "users".id <> 9) LIMIT 1[0m
+  [4;35;1mUser Exists (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'stacie@alum.calberkeley.org' AND "users".id <> 9) LIMIT 1[0m
+
+NoMethodError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.call):
+  app/controllers/users_controller.rb:77:in `update'
+
+Rendered rescues/_trace (26.8ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#edit (for 127.0.0.1 at 2009-09-04 15:51:41) [GET]
+  Parameters: {"action"=>"edit", "id"=>"9", "controller"=>"users"}
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 9) [0m
+Rendering template within layouts/rocket
+Rendering users/edit
+Completed in 11ms (View: 5, DB: 0) | 200 OK [http://0.0.0.0/users/9/edit]
+
+
+Processing UsersController#update (for 127.0.0.1 at 2009-09-04 15:51:47) [PUT]
+  Parameters: {"user"=>{"tw_auth"=>"0", "fb_auth"=>"0", "username"=>"stacie", "password"=>"[FILTERED]", "email"=>"stacie@alum.calberkeley.org"}, "commit"=>"Update", "action"=>"update", "_method"=>"put", "authenticity_token"=>"B7yiOhVBye8oQvK2K6vpn36XQw0MDuRBL4Y0eW+83sI=", "id"=>"9", "controller"=>"users"}
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 9) [0m
+WARNING: Can't mass-assign these protected attributes: tw_auth, fb_auth, username
+  [4;36;1mUser Exists (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'stacie@alum.calberkeley.org' AND "users".id <> 9) LIMIT 1[0m
+  [4;35;1mUser Exists (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'stacie@alum.calberkeley.org' AND "users".id <> 9) LIMIT 1[0m
+
+NoMethodError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.call):
+  app/controllers/users_controller.rb:77:in `update'
+
+Rendered rescues/_trace (24.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#update (for 127.0.0.1 at 2009-09-04 15:52:18) [PUT]
+  Parameters: {"user"=>{"tw_auth"=>"0", "fb_auth"=>"0", "username"=>"stacie", "password"=>"[FILTERED]", "email"=>"stacie@alum.calberkeley.org"}, "commit"=>"Update", "action"=>"update", "_method"=>"put", "authenticity_token"=>"B7yiOhVBye8oQvK2K6vpn36XQw0MDuRBL4Y0eW+83sI=", "id"=>"9", "controller"=>"users"}
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 9) [0m
+WARNING: Can't mass-assign these protected attributes: tw_auth, fb_auth, username
+  [4;35;1mUser Exists (0.2ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'stacie@alum.calberkeley.org' AND "users".id <> 9) LIMIT 1[0m
+  [4;36;1mUser Exists (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'stacie@alum.calberkeley.org' AND "users".id <> 9) LIMIT 1[0m
+
+NameError (uninitialized constant UsersController::UsersContoller):
+  app/controllers/users_controller.rb:83:in `update'
+  app/controllers/users_controller.rb:77:in `update'
+
+Rendered rescues/_trace (26.2ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#update (for 127.0.0.1 at 2009-09-04 15:53:33) [PUT]
+  Parameters: {"user"=>{"tw_auth"=>"0", "fb_auth"=>"0", "username"=>"stacie", "password"=>"[FILTERED]", "email"=>"stacie@alum.calberkeley.org"}, "commit"=>"Update", "action"=>"update", "_method"=>"put", "authenticity_token"=>"B7yiOhVBye8oQvK2K6vpn36XQw0MDuRBL4Y0eW+83sI=", "id"=>"9", "controller"=>"users"}
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 9) [0m
+WARNING: Can't mass-assign these protected attributes: tw_auth, fb_auth, username
+  [4;36;1mUser Exists (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'stacie@alum.calberkeley.org' AND "users".id <> 9) LIMIT 1[0m
+  [4;35;1mUser Exists (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'stacie@alum.calberkeley.org' AND "users".id <> 9) LIMIT 1[0m
+
+NameError (undefined local variable or method `order' for #<UsersController:0x22b9d80>):
+  app/controllers/users_controller.rb:79:in `update'
+  app/controllers/users_controller.rb:77:in `update'
+
+Rendered rescues/_trace (24.3ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#update (for 127.0.0.1 at 2009-09-04 15:54:04) [PUT]
+  Parameters: {"user"=>{"tw_auth"=>"0", "fb_auth"=>"0", "username"=>"stacie", "password"=>"[FILTERED]", "email"=>"stacie@alum.calberkeley.org"}, "commit"=>"Update", "action"=>"update", "_method"=>"put", "authenticity_token"=>"B7yiOhVBye8oQvK2K6vpn36XQw0MDuRBL4Y0eW+83sI=", "id"=>"9", "controller"=>"users"}
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 9) [0m
+WARNING: Can't mass-assign these protected attributes: tw_auth, fb_auth, username
+  [4;35;1mUser Exists (0.2ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'stacie@alum.calberkeley.org' AND "users".id <> 9) LIMIT 1[0m
+  [4;36;1mUser Exists (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'stacie@alum.calberkeley.org' AND "users".id <> 9) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'stacie@alum.calberkeley.org' AND "users".id <> 9) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'stacie@alum.calberkeley.org' AND "users".id <> 9) LIMIT 1[0m
+Redirected to http://0.0.0.0:3000/users/9
+Completed in 83ms (DB: 1) | 302 Found [http://0.0.0.0/users/9]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-09-04 15:54:04) [GET]
+  Parameters: {"action"=>"show", "id"=>"9", "controller"=>"users"}
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 9) LIMIT 1[0m
+Rendering template within layouts/rocket
+Rendering users/show
+Completed in 450ms (View: 5, DB: 0) | 200 OK [http://0.0.0.0/users/9]

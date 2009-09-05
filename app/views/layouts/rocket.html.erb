@@ -4,7 +4,7 @@
 <html>
 <head>
   <title>To Rocket</title>
-  <%= stylesheet_link_tag 'rocket', :media => "all"%>
+  <%= stylesheet_link_tag 'rocket', 'common', :media => "all"%>
   <%= javascript_include_tag :defaults %>
 </head>
 <body id="application">
@@ -24,12 +24,13 @@
 
       <% if session[:user_id] %>
         <br />
-        <%= link_to 'Status', :controller => 'status' %><br />
-        <%= link_to 'Friends', :controller => 'friends' %><br />
+        <%= link_to 'Status', :controller => 'statuses' %><br />
+        <!-- %= link_to 'Friends', :controller => 'friends' %><br /-->
         <%= link_to 'Admin', :controller => 'users' %><br />
         <%= link_to 'My Info', :controller => 'users', :id => session[:user_id], :action => 'edit' %><br />
         <br />
-        <%= link_to 'Logout', :action => 'logout'  %>
+        <!-- %= link_to 'Logout', :action => 'logout'  %-->
+        <%= link_to 'Logout', session_url, :method => :delete %><br />
       <% end %>
     </div>
     <div id="main">

@@ -5,8 +5,8 @@ class UsersController < ApplicationController
   include Clearance::App::Controllers::UsersController
 
   def show
-    @tweets = current_user.client.user_timeline(:id => params[:id])
-    @user = current_user.client.user(params[:id])
+    @tweets = current_user.tw_client.user_timeline(:id => params[:id])
+    @user = current_user.tw_client.user(params[:id])
   end
 
   #private

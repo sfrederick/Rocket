@@ -17,7 +17,8 @@
     <div id="side">
 
       <br />
-      <a href="http://www....">Home</a><br />
+      <%= link_to 'Home', root_url %><br />
+      <!-- a href="http://www....">Home</a><br / -->
       <a href="http://www..../faq">Questions </a><br />
       <a href="http://www..../news">News</a><br />
       <a href="http://www..../contact">Contact</a><br />
@@ -33,6 +34,7 @@
         <%= link_to 'Logout', session_url, :method => :delete %><br />
       <% end %>
     </div>
+
     <div id="main">
       <% if flash[:notice] -%>
         <div id="notice"><%= flash[:notice] %></div>

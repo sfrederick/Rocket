@@ -9,17 +9,21 @@ class User < ActiveRecord::Base
   validate :password_non_blank
 
   def authorized?
-    !atoken.blank? && !asecret.blank?
+    tw_auth && (!atoken.blank? && !asecret.blank?)
   end
 
-  def oauth
-    @oauth ||= Twitter::OAuth.new(ConsumerConfig['token'], ConsumerConfig['secret'])
+  def tw_oauth
+    if (tw_auth)
+      @tw_oauth ||= Twitter::OAuth.new(ConsumerConfig['tw_token'], ConsumerConfig['tw_secret'])
+    end
   end
 
-  def client
-    @client ||= begin
-      oauth.authorize_from_access(atoken, asecret)
-      Twitter::Base.new(oauth)
+  def tw_client
+    if (tw_auth)
+      @tw_client ||= begin
+        tw_oauth.authorize_from_access(atoken, asecret)
+        Twitter::Base.new(tw_oauth)
+      end
     end
   end
 

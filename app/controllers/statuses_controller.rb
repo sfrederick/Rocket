@@ -7,6 +7,10 @@ class StatusesController < ApplicationController
     params[:page] ||= 1
     unless current_user.tw_client.nil?
       @tweets = current_user.tw_client.friends_timeline(:page => params[:page])
+      for tweet in @tweets
+        puts "tweet is: "
+        puts tweet
+      end
     end
   end
 

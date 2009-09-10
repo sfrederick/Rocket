@@ -9,17 +9,21 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20090904204248) do
+ActiveRecord::Schema.define(:version => 20090910080032) do
 
   create_table "statuses", :force => true do |t|
-    t.string   "source"
-    t.integer  "user_id"
-    t.text     "status"
-    t.date     "update"
-    t.string   "means"
+    t.string   "network"
+    t.string   "user_name"
+    t.string   "status_text"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.text     "status_json"
+    t.datetime "status_at"
+    t.integer  "status_id"
+    t.integer  "user_id"
   end
+
+  add_index "statuses", ["status_at"], :name => "index_statuses_on_status_at"
 
   create_table "users", :force => true do |t|
     t.string   "username"

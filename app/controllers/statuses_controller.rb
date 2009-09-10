@@ -6,12 +6,14 @@ class StatusesController < ApplicationController
   def index
     params[:page] ||= 1
     unless current_user.tw_client.nil?
-      @tweets = current_user.tw_client.friends_timeline(:page => params[:page])
+      #@tweets = current_user.tw_client.friends_timeline(:page => params[:page])
+      @tweets = Status.tw_read(current_user.tw_client)
       for tweet in @tweets
         puts "tweet is: "
         puts tweet
       end
     end
+    @tweets
   end
 
   def show

@@ -8,12 +8,17 @@ class StatusesController < ApplicationController
     unless current_user.tw_client.nil?
       #@tweets = current_user.tw_client.friends_timeline(:page => params[:page])
       @tweets = Status.tw_read(current_user.tw_client)
-      for tweet in @tweets
-        puts "tweet is: "
-        puts tweet
-      end
+      puts "@tweets is:"
+      pp @tweets
+      puts "@tweets.length is: " + @tweets.length.to_s
+      puts "@tweets[1] is:"
+      pp @tweets[1]
+      #@tweets.each do |tweet|
+      #  puts "tweet is: "
+      #  pp tweet[:user]
+      #end
     end
-    @tweets
+    @tweets[1..-1]
   end
 
   def show

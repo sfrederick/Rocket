@@ -1,5 +1,6 @@
 class Status < ActiveRecord::Base
   require 'json/add/rails'
+  require 'PP'
   
   def self.tw_read(tw_client)
     last_tweet = find_last_by_network("twitter")
@@ -9,10 +10,13 @@ class Status < ActiveRecord::Base
     saved_tweets = []
     saved_tweets = find_all_by_network("twitter", :limit => 20, :order => "status_at DESC")
     saved_tweets.each do |a_status|
+      #puts "json out of db a_tweet is"
       a_tweet = JSON.parse(a_status.status_json)
+      #pp a_tweet
+      #pp a_status.user_json
+      a_tweet["user"] = JSON.parse(a_status.user_json)
+      #pp a_tweet
       tweets << a_tweet
-      puts "json out of db a_tweet is"
-      puts a_tweet
     end
     tweets
   end
@@ -22,7 +26,7 @@ class Status < ActiveRecord::Base
 
     unless tw_client.nil?
       tw_status = Status.new
-      new_tweets = []
+      #new_tweets = []
       if (last_tw_id > 0)
         new_tweets = tw_client.friends_timeline(:since_id => last_tw_id)
       else
@@ -30,20 +34,22 @@ class Status < ActiveRecord::Base
       end
       new_tweets.each do |a_tweet|
         tw_status.network = "twitter"
-        tw_status.status_at = a_tweet[:created_at]
+        tw_status.status_at = a_tweet.created_at
         tw_status.status_text = a_tweet[:text]
         tw_status.status_id = a_tweet[:id]
-        unless a_tweet[:user].blank?
-          tw_status.user_id = a_tweet[:user][:id]
-          tw_status.user_name = a_tweet[:user][:screen_name]
-        end
-        puts "raw json is"
-        puts a_tweet
-        tw_status.status_json = JSON.unparse(a_tweet)
-        tw_status.save
+        tw_status.user_id = a_tweet[:user][:id]
+        tw_status.user_name = a_tweet[:user][:screen_name]
+        puts "raw json is a_tweet.user"
+        pp a_tweet.user
+        tw_status.user_json = JSON.generate(a_tweet.user)
+        a_tweet.delete("user")
 
+        puts "raw json is a_tweet"
+        pp a_tweet
+        tw_status.status_json = JSON.generate(a_tweet)
+        tw_status.save
       end
     end
-    @tweets
+    new_tweets
   end
 end

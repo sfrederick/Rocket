@@ -1,6 +1,8 @@
 class Status < ActiveRecord::Base
   require 'json/add/rails'
   require 'PP'
+
+  composed_of :user
   
   def self.tw_read(tw_client)
     last_tweet = find_last_by_network("twitter")
@@ -14,7 +16,7 @@ class Status < ActiveRecord::Base
       a_tweet = JSON.parse(a_status.status_json)
       #pp a_tweet
       #pp a_status.user_json
-      a_tweet["user"] = JSON.parse(a_status.user_json)
+      a_tweet[:user] = JSON.parse(a_status.user_json)
       #pp a_tweet
       tweets << a_tweet
     end

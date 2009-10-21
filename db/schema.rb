@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20090913071925) do
+ActiveRecord::Schema.define(:version => 20091021030021) do
 
   create_table "statuses", :force => true do |t|
     t.string   "network"
@@ -18,13 +18,16 @@ ActiveRecord::Schema.define(:version => 20090913071925) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.text     "status_json"
-    t.datetime "status_at"
+    t.datetime "status_created_at"
     t.integer  "status_id"
     t.integer  "user_id"
     t.text     "user_json"
+    t.string   "reply_status_id"
+    t.text     "user_image_url"
+    t.integer  "user_followers_count"
   end
 
-  add_index "statuses", ["status_at"], :name => "index_statuses_on_status_at"
+  add_index "statuses", ["status_created_at"], :name => "index_statuses_on_status_at"
 
   create_table "users", :force => true do |t|
     t.string   "username"

@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20091021030021) do
+ActiveRecord::Schema.define(:version => 20091022033104) do
 
   create_table "statuses", :force => true do |t|
     t.string   "network"
@@ -25,6 +25,7 @@ ActiveRecord::Schema.define(:version => 20091021030021) do
     t.string   "reply_status_id"
     t.text     "user_image_url"
     t.integer  "user_followers_count"
+    t.boolean  "status_favorited"
   end
 
   add_index "statuses", ["status_created_at"], :name => "index_statuses_on_status_at"

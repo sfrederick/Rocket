@@ -1,22 +1,19 @@
 
-<!-- %- user = status.user.blank? ? status.sender : status["user"] -%>
--->
-<% pp status %>
-
 <div id="status_<%= status.status_id %>" class="status">
   <div class="info">
     <%= link_to image_tag(status.user_image_url), user_url(status.user_name), :class => 'profile_image' %>
     
     <p class="who_when">
       <%= link_to h(status.user_name), user_url(status.user_name) %><br />
-      <%= pretty_datetime Time.parse(status.status_created_at) %>
+      <!-- %= pretty_datetime Time.parse(status.status_created_at) % -->
+      <%= status.status_created_at %>
     </p>
     
     <p class="actions">
       <span title="# of followers" class="followers_count"><%= status.user_followers_count %></span>
-      <%= link_to image_tag('chat.gif'), status_url(:id => status.reply_status_id), :class => 'icon' unless status.reply_id.blank? %>
+      <%= link_to image_tag('chat.gif'), status_url(:id => status.reply_status_id), :class => 'icon' unless status.reply_status_id.blank? %>
       
-      <%- if status.favorited -%>
+      <%- if status.status_favorited -%>
         <%= link_to image_tag('star_on.gif'), unfav_status_url(:id => status.status_id, :return_to => request.request_uri), :class => 'icon', :method => :post %>
       <%- else -%>
         <%= link_to image_tag('star.gif'), fav_status_url(:id => status.status_id, :return_to => request.request_uri), :class => 'icon', :method => :post %>
@@ -28,6 +25,6 @@
   </div>
 
   <div class="text">
-    <%= linkup_mentions(auto_link(status.text)) %>
+    <%= linkup_mentions(auto_link(status.status_text)) %>
   </div>
 </div>

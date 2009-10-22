@@ -2,18 +2,17 @@ class Status < ActiveRecord::Base
   require 'json/add/rails'
   require 'PP'
 
-  attr_reader :status_text, :status_id, :status_created_at
-  attr_reader :user_name, :user_image_url, :user_id
-  attr_reader :reply_status_id
+  #attr_reader :status_text, :status_id, :status_created_at
+  #attr_reader :user_name, :user_image_url, :user_id
+  #attr_reader :reply_status_id
   
   def self.tw_read(tw_client)
     last_tweet = find_last_by_network("twitter")
-    last_tweet_id = last_tweet.nil? ? -1 : last_tweet.status_id
+    last_tweet_id = last_tweet.nil? ? -1 : last_tweet[:status_id]
     #tweets = []
     #tweets << tw_get_new(tw_client, last_tweet_id)
     tw_get_new(tw_client, last_tweet_id)
-    saved_status = []
-    saved_status = find_all_by_network("twitter", :limit => 20, :order => "status_created_at DESC")
+    find_all_by_network("twitter", :limit => 20, :order => "status_created_at DESC")
     #saved_status.each do |a_status|
       #puts "json out of db a_tweet is"
       #a_tweet = JSON.parse(a_status.status_json)
@@ -31,7 +30,6 @@ class Status < ActiveRecord::Base
 
     unless tw_client.nil?
       tw_status = Status.new
-      #new_tweets = []
       if (last_tw_id > 0)
         new_tweets = tw_client.friends_timeline(:since_id => last_tw_id)
       else
@@ -42,13 +40,14 @@ class Status < ActiveRecord::Base
         tw_status.status_created_at = a_tweet[:created_at]
         tw_status.status_text = a_tweet[:text]
         tw_status.status_id = a_tweet[:id]
+        tw_status.status_favorited = a_tweet[:favorited]
         tw_status.user_id = a_tweet[:user][:id]
         tw_status.user_name = a_tweet[:user][:screen_name]
         tw_status.user_image_url = a_tweet[:user][:profile_image_url]
         tw_status.reply_status_id = a_tweet[:in_reply_to_status_id]
         #puts "raw json is a_tweet.user"
         #pp a_tweet.user
-        tw_status.user_json = JSON.generate(a_tweet.user)
+        tw_status.user_json = JSON.generate(a_tweet[:user])
         a_tweet.delete("user")
 
         #puts "raw json is a_tweet"

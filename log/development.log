@@ -32982,3 +32982,24 @@ Rendering template within layouts/rocket
 Rendering /sessions/new (unauthorized)
 Filter chain halted as [:authenticate] rendered_or_redirected.
 Completed in 12ms (View: 12, DB: 0) | 401 Unauthorized [http://0.0.0.0/]
+
+
+Processing StatusesController#index (for 127.0.0.1 at 2009-10-31 00:40:21) [GET]
+Rendering template within layouts/rocket
+Rendering /sessions/new (unauthorized)
+Filter chain halted as [:authenticate] rendered_or_redirected.
+Completed in 4ms (View: 3, DB: 0) | 401 Unauthorized [http://0.0.0.0/]
+
+
+Processing StatusesController#index (for 127.0.0.1 at 2009-10-31 00:40:44) [GET]
+Rendering template within layouts/rocket
+Rendering /sessions/new (unauthorized)
+Filter chain halted as [:authenticate] rendered_or_redirected.
+Completed in 3ms (View: 3, DB: 0) | 401 Unauthorized [http://0.0.0.0/]
+
+
+Processing StatusesController#index (for 127.0.0.1 at 2009-10-31 00:42:40) [GET]
+Rendering template within layouts/rocket
+Rendering /sessions/new (unauthorized)
+Filter chain halted as [:authenticate] rendered_or_redirected.
+Completed in 3ms (View: 3, DB: 0) | 401 Unauthorized [http://0.0.0.0/]

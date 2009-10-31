@@ -1,0 +1,20 @@
+<%#
+# To change this template, choose Tools | Templates
+# and open the template in the editor.
+%>
+
+<%= "index.fbml" %>
+
+<fb:header>Rocket 1</fb:header>
+
+<fb:tabs>
+  <fb:tab-item href='<%= url_for :controller => 'welcome',
+:action => 'index' %>' title='Home' selected='true'/>
+  <fb:tab-item href='<%= url_for :controller => 'things',
+:action => 'index' %>' title='Your things' />
+</fb:tabs>
+
+<p>
+  Hi there <fb:name uid="loggedinuser" useyou="false" />!
+Welcome to Rocket 1.
+</p>

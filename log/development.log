@@ -32961,3 +32961,24 @@ ActionController::RoutingError (No route matches "/stylesheets/images/bg_rounded
   
 
 Rendering rescues/layout (not_found)
+
+
+Processing StatusesController#index (for 127.0.0.1 at 2009-10-31 00:05:22) [GET]
+Rendering template within layouts/rocket
+Rendering /sessions/new (unauthorized)
+Filter chain halted as [:authenticate] rendered_or_redirected.
+Completed in 68ms (View: 13, DB: 0) | 401 Unauthorized [http://0.0.0.0/]
+
+
+Processing StatusesController#index (for 127.0.0.1 at 2009-10-31 00:11:45) [GET]
+Rendering template within layouts/rocket
+Rendering /sessions/new (unauthorized)
+Filter chain halted as [:authenticate] rendered_or_redirected.
+Completed in 3ms (View: 3, DB: 0) | 401 Unauthorized [http://0.0.0.0/]
+
+
+Processing StatusesController#index (for 127.0.0.1 at 2009-10-31 00:19:47) [GET]
+Rendering template within layouts/rocket
+Rendering /sessions/new (unauthorized)
+Filter chain halted as [:authenticate] rendered_or_redirected.
+Completed in 12ms (View: 12, DB: 0) | 401 Unauthorized [http://0.0.0.0/]

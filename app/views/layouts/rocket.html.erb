@@ -25,7 +25,9 @@
 
       <% if session[:user_id] %>
         <br />
-        <%= link_to 'Welcome', :controller => 'welcome' %><br />
+        <!--
+        < %= link_to 'Welcome', :controller => 'welcome' %><br />
+        -->
         <%= link_to 'Status', :controller => 'statuses' %><br />
         <!-- %= link_to 'Friends', :controller => 'friends' %><br /-->
         <%= link_to 'Admin', :controller => 'users' %><br />

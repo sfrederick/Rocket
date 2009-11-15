@@ -19,8 +19,8 @@ Rails::Initializer.run do |config|
     :version => '2.3.8'
 
   config.gem 'twitter',
-    :lib => 'twitter',
-    :version => '0.6.6'
+    :lib => 'twitter'#,
+#    :version => '0.6.6'
 
   # Settings in config/environments/* take precedence over those specified here.
   # Application configuration should go into files in config/initializers

@@ -11,7 +11,7 @@
 development:
   api_key: a4da265b88e6cf1da7590dd5a3b3dcdf
   secret_key: 052343a71008309c4bf64951ac2a4348
-  canvas_page_name: rocket 1
+  canvas_page_name: rocket_one
   callback_url: http://deep-flower-92.heroku.com:80
   pretty_errors: true
   set_asset_host_to_callback_url: true

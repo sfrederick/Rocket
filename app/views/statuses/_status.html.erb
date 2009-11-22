@@ -1,10 +1,10 @@
 
 <div id="status_<%= status.status_id %>" class="status">
   <div class="info">
-    <%= link_to image_tag(status.user_image_url), user_url(status.user_name), :class => 'profile_image' %>
+    <%= link_to image_tag(status.user_image_url), user_url(status.status_user_name), :class => 'profile_image' %>
     
     <p class="who_when">
-      <%= link_to h(status.user_name), user_url(status.user_name) %><br />
+      <%= link_to h(status.status_user_name), user_url(status.status_user_name) %><br />
       <!-- %= pretty_datetime Time.parse(status.status_created_at) % -->
       <%= status.status_created_at %>
     </p>
@@ -19,8 +19,8 @@
         <%= link_to image_tag('star.gif'), fav_status_url(:id => status.status_id, :return_to => request.request_uri), :class => 'icon', :method => :post %>
       <%- end -%>
       
-      <%= link_to image_tag('mail.gif'), '#', :class => 'dm icon', :rel => h(status.user_name), :title => "Direct Message #{h status.user_name}" %>
-      <%= link_to image_tag('comment.gif'), '#', :class => 'reply icon', :rel => h("#{status.user_name}:#{status.status_id}"), :title => "Reply to #{h status.user_name}" %>
+      <%= link_to image_tag('mail.gif'), '#', :class => 'dm icon', :rel => h(status.status_user_name), :title => "Direct Message #{h status.status_user_name}" %>
+      <%= link_to image_tag('comment.gif'), '#', :class => 'reply icon', :rel => h("#{status.status_user_name}:#{status.status_id}"), :title => "Reply to #{h status.status_user_name}" %>
     </p>
   </div>
 

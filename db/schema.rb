@@ -9,18 +9,18 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20091022033104) do
+ActiveRecord::Schema.define(:version => 20091122082518) do
 
   create_table "statuses", :force => true do |t|
     t.string   "network"
-    t.string   "user_name"
+    t.string   "status_user_name"
     t.string   "status_text"
     t.datetime "created_at"
     t.datetime "updated_at"
     t.text     "status_json"
     t.datetime "status_created_at"
     t.integer  "status_id"
-    t.integer  "user_id"
+    t.integer  "status_user_id"
     t.text     "user_json"
     t.string   "reply_status_id"
     t.text     "user_image_url"
@@ -50,5 +50,15 @@ ActiveRecord::Schema.define(:version => 20091022033104) do
   add_index "users", ["email"], :name => "index_users_on_email"
   add_index "users", ["id", "token"], :name => "index_users_on_id_and_token"
   add_index "users", ["token"], :name => "index_users_on_token"
+
+  create_table "users_statuses", :id => false, :force => true do |t|
+    t.string   "network"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.integer  "user_id"
+    t.integer  "status_id"
+  end
+
+  add_index "users_statuses", ["network"], :name => "index_users_statuses_on_user_id_and_status_id_and_network", :unique => true
 
 end

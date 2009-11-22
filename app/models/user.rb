@@ -8,6 +8,8 @@ class User < ActiveRecord::Base
   validates_uniqueness_of :email
   validate :password_non_blank
 
+  has_and_belongs_to_many :statuses
+
   def authorized?
     tw_auth && (!atoken.blank? && !asecret.blank?)
   end

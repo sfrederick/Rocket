@@ -5,6 +5,11 @@ class Status < ActiveRecord::Base
   #attr_reader :status_text, :status_id, :status_created_at
   #attr_reader :user_name, :user_image_url, :user_id
   #attr_reader :reply_status_id
+
+  has_and_belongs_to_many :users
+  #  :class_name => "User",
+  #  :foreign_key => "id",
+  #  :conditions => "network is not null"
   
   def self.tw_read(tw_client)
     last_tweet = find_last_by_network("twitter")
@@ -41,8 +46,8 @@ class Status < ActiveRecord::Base
         tw_status.status_text = a_tweet[:text]
         tw_status.status_id = a_tweet[:id]
         tw_status.status_favorited = a_tweet[:favorited]
-        tw_status.user_id = a_tweet[:user][:id]
-        tw_status.user_name = a_tweet[:user][:screen_name]
+        tw_status.status_user_id = a_tweet[:user][:id]
+        tw_status.status_user_name = a_tweet[:user][:screen_name]
         tw_status.user_image_url = a_tweet[:user][:profile_image_url]
         tw_status.reply_status_id = a_tweet[:in_reply_to_status_id]
         #puts "raw json is a_tweet.user"

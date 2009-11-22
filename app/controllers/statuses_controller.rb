@@ -1,6 +1,5 @@
 class StatusesController < ApplicationController
   layout "rocket"
-
   before_filter :authenticate
 
   def index
@@ -13,12 +12,12 @@ class StatusesController < ApplicationController
       pp @tweets[1]
       puts "@tweets[1].status_id ="
       pp @tweets[1].status_id
-      puts "@tweets[1].user_name = " + @tweets[1].user_name
+      puts "@tweets[1].status_user_name = " + @tweets[1].status_user_name
       puts "@tweets[1].status_created_at = "
       pp @tweets[1].status_created_at
       #pp Time.parse(@tweets[1].status_created_at)
-      #puts "tweets[1][:user_id] is:"
-      #pp @tweets[1][:user_id]
+      #puts "tweets[1][:status_user_id] is:"
+      #pp @tweets[1][:status_user_id]
       #puts "tweets[1]['id'] is:"
       #pp @tweets[1]["id"]
     end

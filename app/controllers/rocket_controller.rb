@@ -1,5 +1,6 @@
 class RocketController < ApplicationController
 
+  layout "rocket"
   def index
     if request.post? && session[:user_id] == nil
       user = User.authenticate(params[:email], params[:password])

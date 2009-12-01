@@ -2,17 +2,14 @@ class Status < ActiveRecord::Base
   require 'json/add/rails'
   require 'PP'
 
-  #attr_reader :status_text, :status_id, :status_created_at
-  #attr_reader :user_name, :user_image_url, :user_id
-  #attr_reader :reply_status_id
-
   has_and_belongs_to_many :users
   #  :class_name => "User",
   #  :foreign_key => "id",
   #  :conditions => "network is not null"
   
-  def self.tw_read(tw_client)
-    last_tweet = find_last_by_network("twitter")
+  def self.tw_read(user, tw_client)
+    #last_tweet = user.statuses.find_last_by_network("twitter")
+    last_tweet = Status.find_last_by_network("twitter")
     last_tweet_id = last_tweet.nil? ? -1 : last_tweet[:status_id]
     #tweets = []
     #tweets << tw_get_new(tw_client, last_tweet_id)
